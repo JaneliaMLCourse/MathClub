@@ -35,7 +35,7 @@ Video links
 - xx
 - xx
 
-Problem set
+[Problems](hw2.pdf)
 
 Programming [exercise]() / [solution]()
 
