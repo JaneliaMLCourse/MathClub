@@ -1,32 +1,82 @@
-## Welcome to GitHub Pages
+## Foundational math for neuroscience/ML
 
-You can use the [editor on GitHub](https://github.com/JaneliaMLCourse/MathClub/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+### Week 1: Topics in calculus
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Notes
 
-### Markdown
+Video links
+- xx
+- xx
+- xx
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Problem set
 
-```markdown
-Syntax highlighted code block
+### Week 2: Basic linear algebra
 
-# Header 1
-## Header 2
-### Header 3
+Notes
 
-- Bulleted
-- List
+Video links
+- xx
+- xx
+- xx
 
-1. Numbered
-2. List
+Problem set
 
-**Bold** and _Italic_ and `Code` text
+### Week 3: Principal components analysis
 
-[Link](url) and ![Image](src)
-```
+Notes
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+Video links
+- xx
+- xx
+- xx
+
+Problem set
+
+Programming [exercise]() / [solution]()
+
+
+### Week 4: Linear regression
+
+Notes
+
+Video links
+- xx
+- xx
+- xx
+
+Problem set
+
+Programming [exercise]() / [solution]()
+
+### Week 5: Probability and random variables
+
+Notes
+
+Video links
+- xx
+- xx
+- xx
+
+Problem set
+
+Programming [exercise]() / [solution]()
+
+### Week 6: Maximum likelihood / MAP ?
+
+Notes
+
+Video links
+- xx
+- xx
+- xx
+
+Problem set
+
+Programming [exercise]() / [solution]()
+
+
+
 
 ### Jekyll Themes
 
