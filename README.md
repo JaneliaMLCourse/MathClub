@@ -35,7 +35,7 @@ Video links
 - xx
 - xx
 
-[Problems](hw2.pdf)
+[Problems](week3_pca/problems.pdf)
 
 Programming [exercise]() / [solution]()
 
