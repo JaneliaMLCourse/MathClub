@@ -1,5 +1,7 @@
 ### Week 1: Topics in calculus
 
+Topics
+
 Notes
 
 Video links
@@ -11,6 +13,8 @@ Problem set
 
 ### Week 2: Basic linear algebra
 
+Topics
+
 Notes
 
 Video links
@@ -21,6 +25,8 @@ Video links
 Problem set
 
 ### Week 3: Principal components analysis
+
+Topics
 
 Notes
 
@@ -36,6 +42,8 @@ Programming [exercise]() / [solution]()
 
 ### Week 4: Linear regression
 
+Topics
+
 Notes
 
 Video links
@@ -49,6 +57,8 @@ Programming [exercise]() / [solution]()
 
 ### Week 5: Probability and random variables
 
+Topics
+
 Notes
 
 Video links
@@ -61,6 +71,8 @@ Problem set
 Programming [exercise]() / [solution]()
 
 ### Week 6: Maximum likelihood / MAP ?
+
+Topics
 
 Notes
 
