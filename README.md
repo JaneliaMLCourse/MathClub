@@ -1,5 +1,3 @@
-## Foundational math for neuroscience/ML
-
 ### Week 1: Topics in calculus
 
 Notes
