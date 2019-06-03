@@ -4,7 +4,7 @@
 
 ## 1: Calculus basics
 
-**Topics:** derivatives, chain rule, Lagrange multipliers
+**derivatives, chain rule, Lagrange multipliers**
 
 - June 17: lecture
 - June 20: problem set
