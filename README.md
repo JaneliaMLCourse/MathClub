@@ -2,18 +2,12 @@
 
 **derivatives, chain rule, Lagrange multipliers**
 
-Notes, Problem set (TBA)
-
 Video resources
 - https://www.youtube.com/user/patrickJMT 
-
-Problem set (TBA)
 
 ### Week 2: Basic linear algebra
 
 **vector/matrix multiplication, eigenvalues/vectors, basis vectors, span**
-
-Notes, Problem set (TBA)
 
 Video resources
 - https://www.khanacademy.org/math/linear-algebra/vectors-and-spaces
@@ -23,19 +17,13 @@ Video resources
 
 **PCA and SVD derivations, low-dimensional representation of data with PCs**
 
-Notes, Problem set, programming exercise (TBA)
-
 Video resources
 - https://www.youtube.com/watch?v=L-pQtGm3VS8
 - https://www.youtube.com/watch?v=mBcLRGuAFUk
 
-Programming [exercise]() / [solution]() (TBA)
-
 ### Week 4: Linear regression
 
 **linear regression - derivation, application and non-linear approaches**
-
-Notes, Problem set, programming exercise (TBA)
 
 Video resources
 - https://www.youtube.com/watch?v=rVviNyIR-fI
@@ -45,8 +33,6 @@ Video resources
 
 **random variables, gaussian/poisson distributions, moments, central limit theorem**
 
-Notes, Problem set (TBA)
-
 Video resources
 - https://www.youtube.com/playlist?list=PLC58778F28211FA19  
 - https://www4.stat.ncsu.edu/~post/teaching.html
@@ -54,8 +40,6 @@ Video resources
 ### Week 6: Maximum likelihood estimation
 
 **log likelihood, analytical derivation of spike rate for a poisson model**
-
-Notes, Problem set, programming exercise (TBA)
 
 Video resources
 - 
