@@ -1,91 +1,64 @@
 ### Week 1: Topics in calculus
 
-Topics
+**derivatives, chain rule, Lagrange multipliers**
 
-Notes
+Notes, Problem set (TBA)
 
-Video links
-- xx
-- xx
-- xx
+Video resources
+- https://www.youtube.com/user/patrickJMT 
 
-Problem set
+Problem set (TBA)
 
 ### Week 2: Basic linear algebra
 
-Topics
+**vector/matrix multiplication, eigenvalues/vectors, basis vectors, span**
 
-Notes
+Notes, Problem set (TBA)
 
-Video links
-- xx
-- xx
-- xx
-
-Problem set
+Video resources
+- https://www.khanacademy.org/math/linear-algebra/vectors-and-spaces
+- https://ocw.mit.edu/courses/mathematics/18-06sc-linear-algebra-fall-2011/syllabus/
 
 ### Week 3: Principal components analysis
 
-Topics
+**PCA and SVD derivations, low-dimensional representation of data with PCs**
 
-Notes
+Notes, Problem set, programming exercise (TBA)
 
-Video links
-- xx
-- xx
-- xx
+Video resources
+- https://www.youtube.com/watch?v=L-pQtGm3VS8
+- https://www.youtube.com/watch?v=mBcLRGuAFUk
 
-[Problems](week3_pca/problems.pdf)
-
-Programming [exercise]() / [solution]()
-
+Programming [exercise]() / [solution]() (TBA)
 
 ### Week 4: Linear regression
 
-Topics
+**linear regression - derivation, application and non-linear approaches**
 
-Notes
+Notes, Problem set, programming exercise (TBA)
 
-Video links
-- xx
-- xx
-- xx
-
-Problem set
-
-Programming [exercise]() / [solution]()
+Video resources
+- https://www.youtube.com/watch?v=rVviNyIR-fI
+- https://ocw.mit.edu/courses/mathematics/18-086-mathematical-methods-for-engineers-ii-spring-2006/video-lectures/lecture-21-optimization-with-constraints/
 
 ### Week 5: Probability and random variables
 
-Topics
+**random variables, gaussian/poisson distributions, moments, central limit theorem**
 
-Notes
+Notes, Problem set (TBA)
 
-Video links
-- xx
-- xx
-- xx
+Video resources
+- https://www.youtube.com/playlist?list=PLC58778F28211FA19  
+- https://www4.stat.ncsu.edu/~post/teaching.html
 
-Problem set
+### Week 6: Maximum likelihood estimation
 
-Programming [exercise]() / [solution]()
+**log likelihood, analytical derivation of spike rate for a poisson model**
 
-### Week 6: Maximum likelihood / MAP ?
+Notes, Problem set, programming exercise (TBA)
 
-Topics
-
-Notes
-
-Video links
-- xx
-- xx
-- xx
-
-Problem set
-
-Programming [exercise]() / [solution]()
-
-
+Video resources
+- 
 
 
 ### Jekyll Themes
