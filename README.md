@@ -2,7 +2,7 @@
 **problem set** session on Thursdays 3:30-5:30pm (Synapse, week 3,6 in Axon)\
 **programming** session (weeks 3,4,6) on Fridays 3:30-5:30pm (Spectrum)
 
-### Week 1: Topics in calculus
+### 1: Topics in calculus
 
 **Topics:** derivatives, chain rule, Lagrange multipliers
 
@@ -12,7 +12,7 @@ June 20: problem set
 Resources
 - [calculus basics](https://www.youtube.com/user/patrickJMT)
 
-### Week 2: Basic linear algebra
+### 2: Basic linear algebra
 
 **Topics:** vector/matrix multiplication, eigenvalues/vectors, basis vectors, span
 
@@ -23,7 +23,7 @@ Resources
 - [khan academy basic linalg](https://www.khanacademy.org/math/linear-algebra/vectors-and-spaces)
 - [more advanced linalg](https://ocw.mit.edu/courses/mathematics/18-06sc-linear-algebra-fall-2011/syllabus/)
 
-### Week 3: Principal components analysis (July 8, 11, 12)
+### 3: Principal components analysis (July 8, 11, 12)
 
 **Topics:** PCA and SVD derivations, low-dimensional representation of data with PCs
 
@@ -36,7 +36,7 @@ Resources
 - [PCA derivation](https://www.youtube.com/watch?v=L-pQtGm3VS8)
 - [SVD derivation](https://www.youtube.com/watch?v=mBcLRGuAFUk)
 
-### Week 4: Linear regression
+### 4: Linear regression
 
 **Topics:** linear regression - derivation, application and non-linear approaches
 
@@ -48,7 +48,7 @@ Resources
 - [linear regression overview](https://www.youtube.com/watch?v=rVviNyIR-fI)
 - [least squares + ridge regression](https://ocw.mit.edu/courses/mathematics/18-086-mathematical-methods-for-engineers-ii-spring-2006/video-lectures/lecture-21-optimization-with-constraints/)
 
-### Week 5: Probability and random variables
+### 5: Probability and random variables
 
 **Topics:** random variables, gaussian/poisson distributions, moments, central limit theorem
 
@@ -59,7 +59,7 @@ Resources
 - [khan academy stats](https://www.youtube.com/playlist?list=PLC58778F28211FA19)
 - [nice interactive stats resources](https://www4.stat.ncsu.edu/~post/teaching.html)
 
-### Week 6: Maximum likelihood estimation
+### 6: Maximum likelihood estimation
 
 **Topics:** log likelihood, analytical derivation of spike rate for a poisson model
 
