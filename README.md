@@ -6,8 +6,7 @@
 
 **Topics:** derivatives, chain rule, Lagrange multipliers
 
-June 17: lecture
-
+June 17: lecture\
 June 20: problem set
 
 Resources
@@ -17,8 +16,7 @@ Resources
 
 **Topics:** vector/matrix multiplication, eigenvalues/vectors, basis vectors, span
 
-June 24: lecture
-
+June 24: lecture\
 June 27: problem set
 
 Resources
@@ -29,10 +27,8 @@ Resources
 
 **Topics:** PCA and SVD derivations, low-dimensional representation of data with PCs
 
-July 8: lecture
-
-July 11: problem set
-
+July 8: lecture\
+July 11: problem set\
 July 12: programming exercise
 
 Resources
@@ -44,10 +40,8 @@ Resources
 
 **Topics:** linear regression - derivation, application and non-linear approaches
 
-July 15: lecture
-
-July 18: problem set
-
+July 15: lecture\
+July 18: problem set\
 July 19: programming exercise
 
 Resources
@@ -58,8 +52,7 @@ Resources
 
 **Topics:** random variables, gaussian/poisson distributions, moments, central limit theorem
 
-July 22: lecture
-
+July 22: lecture\
 July 25: problem set
 
 Resources
@@ -70,8 +63,7 @@ Resources
 
 **Topics:** log likelihood, analytical derivation of spike rate for a poisson model
 
-July 29: lecture
-
+July 29: lecture\
 Aug 1: problem set
 
 Resources
