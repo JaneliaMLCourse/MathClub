@@ -14,7 +14,7 @@ Resources
 
 ## 2: Linear algebra basics
 
-**Topics:** vector/matrix multiplication, eigenvalues/vectors, basis vectors, span
+**vector/matrix multiplication, eigenvalues/vectors, basis vectors, span**
 
 - June 24: lecture
 - June 27: problem set
@@ -25,7 +25,7 @@ Resources
 
 ## 3: Principal components analysis
 
-**Topics:** PCA and SVD derivations, low-dimensional representation of data with PCs
+**PCA and SVD derivations, low-dimensional representation of data with PCs**
 
 - July 8: lecture
 - July 11: problem set
@@ -38,7 +38,7 @@ Resources
 
 ## 4: Linear regression
 
-**Topics:** linear regression - derivation, application and non-linear approaches
+**linear regression - derivation, application and non-linear approaches**
 
 - July 15: lecture
 - July 18: problem set
@@ -50,7 +50,7 @@ Resources
 
 ## 5: Probability and random variables
 
-**Topics:** random variables, gaussian/poisson distributions, moments, central limit theorem
+**random variables, gaussian/poisson distributions, moments, central limit theorem**
 
 - July 22: lecture
 - July 25: problem set
@@ -61,7 +61,7 @@ Resources
 
 ## 6: Maximum likelihood estimation
 
-**Topics:** log likelihood, analytical derivation of spike rate for a poisson model
+**log likelihood, analytical derivation of spike rate for a poisson model**
 
 - July 29: lecture
 - Aug 1: problem set
