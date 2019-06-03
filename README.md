@@ -10,7 +10,7 @@ June 17: lecture
 
 June 20: problem set
 
-Video resources
+Resources
 - [calculus basics](https://www.youtube.com/user/patrickJMT)
 
 ### Week 2: Basic linear algebra
@@ -21,7 +21,7 @@ June 24: lecture
 
 June 27: problem set
 
-Video resources
+Resources
 - [khan academy basic linalg](https://www.khanacademy.org/math/linear-algebra/vectors-and-spaces)
 - [more advanced linalg](https://ocw.mit.edu/courses/mathematics/18-06sc-linear-algebra-fall-2011/syllabus/)
 
@@ -35,7 +35,8 @@ July 11: problem set
 
 July 12: programming exercise
 
-Video resources
+Resources
+- [nice PCA blog post](http://alexhwilliams.info/itsneuronalblog/2016/03/27/pca/)
 - [PCA derivation](https://www.youtube.com/watch?v=L-pQtGm3VS8)
 - [SVD derivation](https://www.youtube.com/watch?v=mBcLRGuAFUk)
 
@@ -49,7 +50,7 @@ July 18: problem set
 
 July 19: programming exercise
 
-Video resources
+Resources
 - [linear regression overview](https://www.youtube.com/watch?v=rVviNyIR-fI)
 - [least squares + ridge regression](https://ocw.mit.edu/courses/mathematics/18-086-mathematical-methods-for-engineers-ii-spring-2006/video-lectures/lecture-21-optimization-with-constraints/)
 
@@ -61,7 +62,7 @@ July 22: lecture
 
 July 25: problem set
 
-Video resources
+Resources
 - [khan academy stats](https://www.youtube.com/playlist?list=PLC58778F28211FA19)
 - [nice interactive stats resources](https://www4.stat.ncsu.edu/~post/teaching.html)
 
@@ -73,7 +74,7 @@ July 29: lecture
 
 Aug 1: problem set
 
-Video resources
+Resources
 - 
 
 
