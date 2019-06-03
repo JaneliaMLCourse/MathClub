@@ -2,6 +2,8 @@
 - **problem set** session on Thursdays 3:30-5:30pm (Synapse, week 3,6 in Axon)
 - **programming** session (weeks 3,4,6) on Fridays 3:30-5:30pm (Spectrum)
 
+Lectures, problem sets, and programming exercises will be posted here ~1 week before each class.
+
 ## 1: Calculus basics
 
 **derivatives, chain rule, Lagrange multipliers**
