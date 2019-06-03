@@ -23,7 +23,7 @@ Resources
 - [khan academy basic linalg](https://www.khanacademy.org/math/linear-algebra/vectors-and-spaces)
 - [more advanced linalg](https://ocw.mit.edu/courses/mathematics/18-06sc-linear-algebra-fall-2011/syllabus/)
 
-### 3: Principal components analysis (July 8, 11, 12)
+### 3: Principal components analysis
 
 **Topics:** PCA and SVD derivations, low-dimensional representation of data with PCs
 
