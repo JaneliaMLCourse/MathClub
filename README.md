@@ -2,7 +2,7 @@
 - **problem set** session on Thursdays 3:30-5:30pm (Synapse, week 3,6 in Axon)
 - **programming** session (weeks 3,4,6) on Fridays 3:30-5:30pm (Spectrum)
 
-## 1: Topics in calculus
+## 1: Calculus basics
 
 **Topics:** derivatives, chain rule, Lagrange multipliers
 
@@ -12,7 +12,7 @@
 Resources
 - [calculus basics](https://www.youtube.com/user/patrickJMT)
 
-## 2: Basic linear algebra
+## 2: Linear algebra basics
 
 **Topics:** vector/matrix multiplication, eigenvalues/vectors, basis vectors, span
 
