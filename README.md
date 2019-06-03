@@ -6,7 +6,7 @@
 
 **Topics:** derivatives, chain rule, Lagrange multipliers
 
-June 17: lecture\
+June 17: lecture</br>
 June 20: problem set
 
 Resources
