@@ -1,13 +1,13 @@
-**lecture** on Mondays 12-1:30pm (Spectrum)\
-**problem set** session on Thursdays 3:30-5:30pm (Synapse, week 3,6 in Axon)\
-**programming** session (weeks 3,4,6) on Fridays 3:30-5:30pm (Spectrum)
+- **lecture** on Mondays 12-1:30pm (Spectrum)
+- **problem set** session on Thursdays 3:30-5:30pm (Synapse, week 3,6 in Axon)
+- **programming** session (weeks 3,4,6) on Fridays 3:30-5:30pm (Spectrum)
 
 ### 1: Topics in calculus
 
 **Topics:** derivatives, chain rule, Lagrange multipliers
 
-June 17: lecture</br>
-June 20: problem set
+- June 17: lecture
+- June 20: problem set
 
 Resources
 - [calculus basics](https://www.youtube.com/user/patrickJMT)
@@ -16,8 +16,8 @@ Resources
 
 **Topics:** vector/matrix multiplication, eigenvalues/vectors, basis vectors, span
 
-June 24: lecture\
-June 27: problem set
+- June 24: lecture
+- June 27: problem set
 
 Resources
 - [khan academy basic linalg](https://www.khanacademy.org/math/linear-algebra/vectors-and-spaces)
@@ -27,9 +27,9 @@ Resources
 
 **Topics:** PCA and SVD derivations, low-dimensional representation of data with PCs
 
-July 8: lecture\
-July 11: problem set\
-July 12: programming exercise
+- July 8: lecture
+- July 11: problem set
+- July 12: programming exercise
 
 Resources
 - [nice PCA blog post](http://alexhwilliams.info/itsneuronalblog/2016/03/27/pca/)
@@ -40,9 +40,9 @@ Resources
 
 **Topics:** linear regression - derivation, application and non-linear approaches
 
-July 15: lecture\
-July 18: problem set\
-July 19: programming exercise
+- July 15: lecture
+- July 18: problem set
+- July 19: programming exercise
 
 Resources
 - [linear regression overview](https://www.youtube.com/watch?v=rVviNyIR-fI)
@@ -52,8 +52,8 @@ Resources
 
 **Topics:** random variables, gaussian/poisson distributions, moments, central limit theorem
 
-July 22: lecture\
-July 25: problem set
+- July 22: lecture
+- July 25: problem set
 
 Resources
 - [khan academy stats](https://www.youtube.com/playlist?list=PLC58778F28211FA19)
@@ -63,8 +63,8 @@ Resources
 
 **Topics:** log likelihood, analytical derivation of spike rate for a poisson model
 
-July 29: lecture\
-Aug 1: problem set
+- July 29: lecture
+- Aug 1: problem set
 
 Resources
 - 
