@@ -1,6 +1,7 @@
-- **lecture** on Mondays 12-1:30pm (Spectrum)
-- **problem set** session on Thursdays 3:30-5:30pm (Synapse, week 3,6 in Axon)
-- **programming** session (weeks 3,4,6) on Fridays 3:30-5:30pm (Spectrum)
+All classes are in Seminar (except July 22 is in Auditorium)
+- **lecture** on Mondays 12-1:30pm 
+- **problem set** session on Thursdays 3:30-5:30pm
+- **programming** session on Fridays 3:30-5:30pm (only weeks 3,4,6) 
 
 Lectures, problem sets, and programming exercises will be posted here ~1 week before each class.
 
