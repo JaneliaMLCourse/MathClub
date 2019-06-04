@@ -1,4 +1,4 @@
-All classes are in Seminar (except July 22 is in Auditorium)
+All classes are in **Seminar** (except July 22 is in Auditorium)
 - **lecture** on Mondays 12-1:30pm 
 - **problem set** session on Thursdays 3:30-5:30pm
 - **programming** session on Fridays 3:30-5:30pm (only weeks 3,4,6) 
