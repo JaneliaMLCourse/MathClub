@@ -62,6 +62,7 @@ Resources
 Resources
 - [khan academy stats](https://www.youtube.com/playlist?list=PLC58778F28211FA19)
 - [nice interactive stats resources](https://www4.stat.ncsu.edu/~post/teaching.html)
+- [Intro and Prob chapter from PRML by Bishop (includes ML)](week5_prob/bishop_ch1-2.pdf)
 
 ## 6: Maximum likelihood estimation
 
