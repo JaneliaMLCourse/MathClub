@@ -36,6 +36,7 @@ Resources
 
 Resources
 - [nice PCA blog post](http://alexhwilliams.info/itsneuronalblog/2016/03/27/pca/)
+- [PCA chapter from PRML by Bishop](week3_pca/bishop_ch12.pdf)
 - [PCA derivation](https://www.youtube.com/watch?v=L-pQtGm3VS8)
 - [SVD derivation](https://www.youtube.com/watch?v=mBcLRGuAFUk)
 
