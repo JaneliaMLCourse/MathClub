@@ -1,19 +1,35 @@
 All classes are in **Seminar** (except July 22 is in Auditorium)
 - **lecture** on Mondays 12-1:30pm 
-- **problem set** session on Thursdays 3:30-5:30pm
+- **lecture/problem set** session on Thursdays 3:30-5:30pm
 - **programming** session on Fridays 3:30-5:30pm (only weeks 3,4,6) 
 
 Lectures, problem sets, and programming exercises will be posted here ~1 week before each class.
 
-## 1: Calculus basics
+## 1: Calculus basics (Marcella)
 
-**derivatives, chain rule, Lagrange multipliers**
+**derivatives, chain rule, gradients, Lagrange multipliers**
 
-- June 17: lecture
-- June 20: problem set
+- June 17: [notes](week1_calc/CalcLectureNotes_1.pdf)
+    - [limits](https://www.khanacademy.org/math/ap-calculus-ab/ab-limits-new/ab-limits-optional/v/limit-intuition-review) (watch before class)
+    - [derivatives](https://www.khanacademy.org/math/calculus-1/cs1-derivatives-definition-and-basic-rules/cs1-derivative-definition/v/calculus-derivatives-1-new-hd-version) (watch before class)
+    - [differentiability](https://www.khanacademy.org/math/calculus-1/cs1-derivatives-definition-and-basic-rules/cs1-differentiability/v/differentiability)
+    - [chain rule](https://www.khanacademy.org/math/calculus-1/cs1-derivatives-chain-rule-and-other-advanced-topics/cs1-chain-rule/v/chain-rule-introduction)
+    - [minima and maxima](https://www.khanacademy.org/math/ap-calculus-ab/ab-diff-analytical-applications-new/ab-5-2/v/minima-maxima-and-critical-points)
+    - [testing critical pts](https://www.khanacademy.org/math/ap-calculus-ab/ab-diff-analytical-applications-new/ab-5-4/v/testing-critical-points-for-local-extrema)
+    - fundamental theorem of calculus and integration: [part1](https://www.khanacademy.org/math/ap-calculus-ab/ab-integration-new/ab-6-4/v/fundamental-theorem-of-calculus), [part2](https://www.khanacademy.org/math/ap-calculus-ab/ab-integration-new/ab-6-7/v/connecting-the-first-and-second-fundamental-theorems-of-calculus)
+- June 20: [notes](week1_calc/CalcLectureNotes_2.pdf)
+    - [vector fields](https://www.khanacademy.org/math/multivariable-calculus/thinking-about-multivariable-function/visualizing-vector-valued-functions/v/vector-fields-introduction)
+    - [visualizing vector fields](https://www.khanacademy.org/math/multivariable-calculus/thinking-about-multivariable-function/visualizing-vector-valued-functions/v/fluid-flow-and-vector-fields)
+    - [partial derivatives](https://www.khanacademy.org/math/multivariable-calculus/multivariable-derivatives/partial-derivatives/v/partial-derivatives-introduction)
+    - [gradients](https://www.khanacademy.org/math/multivariable-calculus/multivariable-derivatives/gradient-and-directional-derivatives/v/gradient)
+    - [gradients and graphs](https://www.khanacademy.org/math/multivariable-calculus/multivariable-derivatives/gradient-and-directional-derivatives/v/gradient-and-graphs)
+    - [contour maps](https://www.khanacademy.org/math/multivariable-calculus/multivariable-derivatives/gradient-and-directional-derivatives/v/gradient-and-contour-maps)
+    - [lagrange multipliers](https://www.khanacademy.org/math/multivariable-calculus/applications-of-multivariable-derivatives/lagrange-multipliers-and-constrained-optimization/v/constrained-optimization-introduction)
+    - [constrained optimization with lagrange multipliers](https://www.khanacademy.org/math/multivariable-calculus/applications-of-multivariable-derivatives/lagrange-multipliers-and-constrained-optimization/v/lagrange-multipliers-using-tangency-to-solve-constrained-optimization)
+    - [lagrange multiplier example](https://www.khanacademy.org/math/multivariable-calculus/applications-of-multivariable-derivatives/lagrange-multipliers-and-constrained-optimization/v/finishing-the-intro-lagrange-multiplier-example)
 
-Resources
-- [calculus basics](https://www.youtube.com/user/patrickJMT)
+Other resources
+- [basic calculus videos](https://www.youtube.com/user/patrickJMT)
 
 ## 2: Linear algebra basics
 
