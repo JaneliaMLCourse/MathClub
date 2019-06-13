@@ -9,7 +9,7 @@ Lectures, problem sets, and programming exercises will be posted here ~1 week be
 
 **derivatives, chain rule, gradients, Lagrange multipliers**
 
-- June 17: [notes](week1_calc/CalcLectureNotes_1.pdf)
+- June 17: **[NOTES](week1_calc/CalcLectureNotes_1.pdf)**
     - [limits](https://www.khanacademy.org/math/ap-calculus-ab/ab-limits-new/ab-limits-optional/v/limit-intuition-review) (watch before class)
     - [derivatives](https://www.khanacademy.org/math/calculus-1/cs1-derivatives-definition-and-basic-rules/cs1-derivative-definition/v/calculus-derivatives-1-new-hd-version) (watch before class)
     - [differentiability](https://www.khanacademy.org/math/calculus-1/cs1-derivatives-definition-and-basic-rules/cs1-differentiability/v/differentiability)
@@ -17,7 +17,8 @@ Lectures, problem sets, and programming exercises will be posted here ~1 week be
     - [minima and maxima](https://www.khanacademy.org/math/ap-calculus-ab/ab-diff-analytical-applications-new/ab-5-2/v/minima-maxima-and-critical-points)
     - [testing critical pts](https://www.khanacademy.org/math/ap-calculus-ab/ab-diff-analytical-applications-new/ab-5-4/v/testing-critical-points-for-local-extrema)
     - fundamental theorem of calculus and integration: [part1](https://www.khanacademy.org/math/ap-calculus-ab/ab-integration-new/ab-6-4/v/fundamental-theorem-of-calculus), [part2](https://www.khanacademy.org/math/ap-calculus-ab/ab-integration-new/ab-6-7/v/connecting-the-first-and-second-fundamental-theorems-of-calculus)
-- June 20: [notes](week1_calc/CalcLectureNotes_2.pdf)
+    
+- June 20: **[NOTES](week1_calc/CalcLectureNotes_2.pdf)**
     - [vector fields](https://www.khanacademy.org/math/multivariable-calculus/thinking-about-multivariable-function/visualizing-vector-valued-functions/v/vector-fields-introduction)
     - [visualizing vector fields](https://www.khanacademy.org/math/multivariable-calculus/thinking-about-multivariable-function/visualizing-vector-valued-functions/v/fluid-flow-and-vector-fields)
     - [partial derivatives](https://www.khanacademy.org/math/multivariable-calculus/multivariable-derivatives/partial-derivatives/v/partial-derivatives-introduction)
