@@ -1,5 +1,5 @@
 All classes are in **Seminar** (except July 22 is in Auditorium)
-- **lecture** on Mondays 12-1:30pm 
+- **lecture** on Mondays 12-2pm 
 - **lecture/problem set** session on Thursdays 3:30-5:30pm
 - **programming** session on Fridays 3:30-5:30pm (only weeks 3,4,6) 
 
@@ -20,8 +20,8 @@ We will also have **office hours** each Wednesday 1-3pm (in 2W.154 POD). You can
     - fundamental theorem of calculus and integration: [part1](https://www.khanacademy.org/math/ap-calculus-ab/ab-integration-new/ab-6-4/v/fundamental-theorem-of-calculus), [part2](https://www.khanacademy.org/math/ap-calculus-ab/ab-integration-new/ab-6-7/v/connecting-the-first-and-second-fundamental-theorems-of-calculus)
     
 - June 20: **[NOTES](week1_calc/CalcLectureNotes_2.pdf)**
-    - [vector fields](https://www.khanacademy.org/math/multivariable-calculus/thinking-about-multivariable-function/visualizing-vector-valued-functions/v/vector-fields-introduction) and [visualizations](https://www.khanacademy.org/math/multivariable-calculus/thinking-about-multivariable-function/visualizing-vector-valued-functions/v/fluid-flow-and-vector-fields)
-    - [partial derivatives](https://www.khanacademy.org/math/multivariable-calculus/multivariable-derivatives/partial-derivatives/v/partial-derivatives-introduction)
+    - [vector fields](https://www.khanacademy.org/math/multivariable-calculus/thinking-about-multivariable-function/visualizing-vector-valued-functions/v/vector-fields-introduction) (up to 2:14) and [visualizations](https://www.khanacademy.org/math/multivariable-calculus/thinking-about-multivariable-function/visualizing-vector-valued-functions/v/fluid-flow-and-vector-fields) (watch before class)
+    - [partial derivatives](https://www.khanacademy.org/math/multivariable-calculus/multivariable-derivatives/partial-derivatives/v/partial-derivatives-introduction) (watch before class
     - [gradients](https://www.khanacademy.org/math/multivariable-calculus/multivariable-derivatives/gradient-and-directional-derivatives/v/gradient); [gradient graphs](https://www.khanacademy.org/math/multivariable-calculus/multivariable-derivatives/gradient-and-directional-derivatives/v/gradient-and-graphs); and [contour maps](https://www.khanacademy.org/math/multivariable-calculus/multivariable-derivatives/gradient-and-directional-derivatives/v/gradient-and-contour-maps)
     - [intro to lagrange multipliers](https://www.khanacademy.org/math/multivariable-calculus/applications-of-multivariable-derivatives/lagrange-multipliers-and-constrained-optimization/v/constrained-optimization-introduction); [constrained optimization with lagrange multipliers](https://www.khanacademy.org/math/multivariable-calculus/applications-of-multivariable-derivatives/lagrange-multipliers-and-constrained-optimization/v/lagrange-multipliers-using-tangency-to-solve-constrained-optimization); and an [example](https://www.khanacademy.org/math/multivariable-calculus/applications-of-multivariable-derivatives/lagrange-multipliers-and-constrained-optimization/v/finishing-the-intro-lagrange-multiplier-example)
 
