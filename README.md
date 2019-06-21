@@ -30,14 +30,25 @@ Other resources
 
 ## 2: Linear algebra basics
 
-**vector/matrix multiplication, eigenvalues/vectors, basis vectors, span**
+**vector/matrix multiplication, basis vectors, span, subspaces, eigenvalues/vectors**
 
 - June 24: lecture
-- June 27: problem set
 
-Resources
-- [khan academy basic linalg](https://www.khanacademy.org/math/linear-algebra/vectors-and-spaces)
-- [more advanced linalg](https://ocw.mit.edu/courses/mathematics/18-06sc-linear-algebra-fall-2011/syllabus/)
+- [vector intro](https://www.khanacademy.org/math/linear-algebra/vectors-and-spaces/vectors/v/vector-introduction-linear-algebra) (watch before class)
+- [real coordinate spaces](https://www.khanacademy.org/math/linear-algebra/vectors-and-spaces/vectors/v/real-coordinate-spaces) (watch before class)
+- [linear combinations, span, and basis vectors](https://www.youtube.com/watch?v=k7RM-ot2NWY)
+- [linear transformations and matrices](https://www.youtube.com/watch?v=kYB8IZa5AuE)
+- [determinant](https://www.youtube.com/watch?v=Ip3X9LOh2dk)
+
+
+- June 27: lecture
+
+- [inverse matrices, column space and null space](https://www.youtube.com/watch?v=uQhTuRlWMxw)
+- [big picture of linear algebra](https://www.youtube.com/watch?v=ggWYkes-n6E)
+- [change of basis](https://www.youtube.com/watch?v=P2LTAUO1TdA)
+
+- [eigenvalues and eigenvectors](https://www.youtube.com/watch?v=PFDu9oVAE-g) (if time permits)
+- [abstract vector spaces](https://www.youtube.com/watch?v=TgKwz5Ikpc8)
 
 ## 3: Principal components analysis
 
