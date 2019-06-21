@@ -47,7 +47,7 @@ Other resources
     - [inverse matrices, column space and null space](https://www.youtube.com/watch?v=uQhTuRlWMxw)
     - [big picture of linear algebra](https://www.youtube.com/watch?v=ggWYkes-n6E)
     - [change of basis](https://www.youtube.com/watch?v=P2LTAUO1TdA)
-
+    
     - [eigenvalues and eigenvectors](https://www.youtube.com/watch?v=PFDu9oVAE-g) (if time permits)
     - [abstract vector spaces](https://www.youtube.com/watch?v=TgKwz5Ikpc8) (if time permits)
     
