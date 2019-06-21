@@ -50,7 +50,7 @@ Other resources
     
     - [eigenvalues and eigenvectors](https://www.youtube.com/watch?v=PFDu9oVAE-g) (if time permits)
     - [abstract vector spaces](https://www.youtube.com/watch?v=TgKwz5Ikpc8) (if time permits)
-    
+       
 
 ## 3: Principal components analysis
 
