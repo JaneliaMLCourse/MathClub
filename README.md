@@ -52,6 +52,10 @@ Other resources
     - [eigenvalues and eigenvectors](https://www.youtube.com/watch?v=PFDu9oVAE-g) (if time permits)
     - [abstract vector spaces](https://www.youtube.com/watch?v=TgKwz5Ikpc8) (if time permits)
        
+Other resources
+- [MIT online course taught by Prof. Gilbert Strang](https://ocw.mit.edu/courses/mathematics/18-06-linear-algebra-spring-2010/)
+- [BOOK: LINEAR ALGEBRA AND ITS APPLICATIONS by Prof. Gilbert Strang](http://www.math.hcmus.edu.vn/~bxthang/Linear%20algebra%20and%20its%20applications.pdf)
+- [Khan Academy linear algebra online course](https://www.khanacademy.org/math/linear-algebra)
 
 ## 3: Principal components analysis
 
