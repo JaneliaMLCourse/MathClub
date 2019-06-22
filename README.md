@@ -42,7 +42,6 @@ Other resources
     - [matrix multiplication as composition](https://www.youtube.com/watch?v=XkY2DOUCWMU)
     - [determinant](https://www.youtube.com/watch?v=Ip3X9LOh2dk)
 
-
 - June 27: lecture
 
     - [inverse matrices, column space and null space](https://www.youtube.com/watch?v=uQhTuRlWMxw)
