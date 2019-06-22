@@ -33,7 +33,7 @@ Other resources
 
 **vector/matrix multiplication, basis vectors, span, subspaces, eigenvalues/vectors**
 
-- June 24: lecture **[NOTES](week2_linalg/Linear Algebra lecture note1.pdf)**
+- June 24: lecture **[NOTES](week2_linalg/LinearAlgebraLectureNote1.pdf)**
 
     - [vector intro](https://www.khanacademy.org/math/linear-algebra/vectors-and-spaces/vectors/v/vector-introduction-linear-algebra) (watch before class)
     - [real coordinate spaces](https://www.khanacademy.org/math/linear-algebra/vectors-and-spaces/vectors/v/real-coordinate-spaces) (watch before class)
@@ -42,7 +42,7 @@ Other resources
     - [matrix multiplication as composition](https://www.youtube.com/watch?v=XkY2DOUCWMU)
     - [determinant](https://www.youtube.com/watch?v=Ip3X9LOh2dk)
 
-- June 27: lecture **[NOTES](week2_linalg/Linear Algebra lecture note2.pdf)**
+- June 27: lecture **[NOTES](week2_linalg/LinearAlgebraLectureNote2.pdf)**
 
     - [inverse matrices, column space and null space](https://www.youtube.com/watch?v=uQhTuRlWMxw)
     - [big picture of linear algebra](https://www.youtube.com/watch?v=ggWYkes-n6E)
