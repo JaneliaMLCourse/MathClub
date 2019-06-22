@@ -39,6 +39,7 @@ Other resources
     - [real coordinate spaces](https://www.khanacademy.org/math/linear-algebra/vectors-and-spaces/vectors/v/real-coordinate-spaces) (watch before class)
     - [linear combinations, span, and basis vectors](https://www.youtube.com/watch?v=k7RM-ot2NWY)
     - [linear transformations and matrices](https://www.youtube.com/watch?v=kYB8IZa5AuE)
+    - [matrix multiplication as composition](https://www.youtube.com/watch?v=XkY2DOUCWMU)
     - [determinant](https://www.youtube.com/watch?v=Ip3X9LOh2dk)
 
 
