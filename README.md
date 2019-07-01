@@ -29,7 +29,7 @@ Other resources
 - [basic calculus videos](https://www.youtube.com/user/patrickJMT)
 
 
-## 2: Linear algebra basics
+## 2: Linear algebra basics (Susu)
 
 **vector/matrix multiplication, basis vectors, span, subspaces, eigenvalues/vectors**
 
