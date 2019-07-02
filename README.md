@@ -65,7 +65,7 @@ Other resources
     - [similar matrices](https://www.youtube.com/watch?v=LKMGo8G7-vk&list=PL9peWTxCcrBJ0ntGY4VMLYnnDJGuXHDAD&index=44)
     
 - July 11: lecture
-    - [matrix diagonalization](https://www.youtube.com/watch?v=U8R54zOTVLw&list=PL9peWTxCcrBJ0ntGY4VMLYnnDJGuXHDAD&index=40)
+    - [matrix diagonalization](https://www.youtube.com/watch?v=U8R54zOTVLw&list=PL9peWTxCcrBJ0ntGY4VMLYnnDJGuXHDAD&index=40) (watch before class)
     - [positive semi-definite matrices](https://www.youtube.com/watch?v=ojUQk_GNQbQ&list=PL9peWTxCcrBJ0ntGY4VMLYnnDJGuXHDAD&index=47)
     - [PCA derivation](https://www.youtube.com/watch?v=L-pQtGm3VS8) (first part of video)
     - [SVD derivation](https://www.youtube.com/watch?v=mBcLRGuAFUk)
