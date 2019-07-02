@@ -58,13 +58,14 @@ Other resources
 **Eigenvalues/vectors, linear differential equations, PCA and SVD derivations**
 
 - July 8: lecture 
+    - [Euler's method](https://www.youtube.com/watch?v=q87L9R9v274) (watch before class if needed)
+    - [complex numbers](https://www.youtube.com/watch?v=ysVcAYo7UPI&list=PLXSlB4yMaoJtM2gG5Mas5mMjwX_B51vsB), [complex roots](https://www.youtube.com/watch?v=N0Y8ia57C24) (watch before class if needed/want to)
     - [eigenvalues and eigenvectors](https://www.youtube.com/watch?v=PFDu9oVAE-g)
-    - [matrix diagonalization](https://www.youtube.com/watch?v=U8R54zOTVLw&list=PL9peWTxCcrBJ0ntGY4VMLYnnDJGuXHDAD&index=40)
-    - [linear systems of differential equations](https://www.youtube.com/watch?v=iVlHPDER0FA&list=PL9peWTxCcrBJ0ntGY4VMLYnnDJGuXHDAD&index=42)
+    - [linear systems of differential equations](https://www.youtube.com/watch?v=iVlHPDER0FA&list=PL9peWTxCcrBJ0ntGY4VMLYnnDJGuXHDAD&index=42), [phase diagrams](https://www.youtube.com/watch?v=e3FfmXtkppM)
     - [similar matrices](https://www.youtube.com/watch?v=LKMGo8G7-vk&list=PL9peWTxCcrBJ0ntGY4VMLYnnDJGuXHDAD&index=44)
     
 - July 11: lecture
-    - [abstract vector spaces](https://www.youtube.com/watch?v=TgKwz5Ikpc8)
+    - [matrix diagonalization](https://www.youtube.com/watch?v=U8R54zOTVLw&list=PL9peWTxCcrBJ0ntGY4VMLYnnDJGuXHDAD&index=40)
     - [positive semi-definite matrices](https://www.youtube.com/watch?v=ojUQk_GNQbQ&list=PL9peWTxCcrBJ0ntGY4VMLYnnDJGuXHDAD&index=47)
     - [PCA derivation](https://www.youtube.com/watch?v=L-pQtGm3VS8) (first part of video)
     - [SVD derivation](https://www.youtube.com/watch?v=mBcLRGuAFUk)
