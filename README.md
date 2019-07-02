@@ -2,8 +2,7 @@ All classes are in **Seminar** (except July 22 is in Auditorium)
 - **lecture** on Mondays 12-2pm 
 - **lecture/problem set** session on Thursdays 3:30-5:30pm
 - **programming** session on Fridays 3:30-5:30pm (only weeks 3,4,6) 
-
-Lectures, problem sets, and programming exercises will be posted here ~1 week before each class.
+    - *Some basic info to set up and run [**python**](https://github.com/JaneliaMLCourse/MathClub/blob/master/PythonInfo.md)*
 
 We will also have **office hours** each Wednesday 1-3pm (in 2W.154 POD). You can also post questions to the Janelia [slack](https://research-scientists.slack.com/invite/enQtMzIyNjEzMDEzNzMyLWIzNDg2YjVjZjVmMjM1ZjU1NGQxMTcyZjdkMTJjYTBmMDc5YTVmZWVhZGY1ZGIzMGI1MDkwNjNiYjU4YzVjOTc?x=x-315810382389-323086614882) #mathclub thread.
 
