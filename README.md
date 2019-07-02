@@ -66,7 +66,7 @@ Other resources
 - July 11: lecture
     - [matrix diagonalization](https://www.youtube.com/watch?v=U8R54zOTVLw&list=PL9peWTxCcrBJ0ntGY4VMLYnnDJGuXHDAD&index=40) (watch before class)
     - [similar matrices](https://www.youtube.com/watch?v=LKMGo8G7-vk&list=PL9peWTxCcrBJ0ntGY4VMLYnnDJGuXHDAD&index=44) (watch first 5 min before class) 
-    - matrix property resources: [symmetric matrices have real e'values and orthogonal e'vectors](https://www.youtube.com/watch?v=ZTNniGvY5IQ&list=PL9peWTxCcrBJ0ntGY4VMLYnnDJGuXHDAD&index=45), [positive semi-definite matrices](https://www.youtube.com/watch?v=ojUQk_GNQbQ&list=PL9peWTxCcrBJ0ntGY4VMLYnnDJGuXHDAD&index=47)
+    - matrix properties: [symmetric matrices](https://www.youtube.com/watch?v=ZTNniGvY5IQ&list=PL9peWTxCcrBJ0ntGY4VMLYnnDJGuXHDAD&index=45), [positive semi-definite matrices](https://www.youtube.com/watch?v=ojUQk_GNQbQ&list=PL9peWTxCcrBJ0ntGY4VMLYnnDJGuXHDAD&index=47)
     - [PCA derivation](https://www.youtube.com/watch?v=L-pQtGm3VS8) (first part of video)
     - [SVD derivation](https://www.youtube.com/watch?v=mBcLRGuAFUk)
 - July 12: programming exercise
