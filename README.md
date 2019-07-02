@@ -47,28 +47,34 @@ Other resources
     - [inverse matrices, column space and null space](https://www.youtube.com/watch?v=uQhTuRlWMxw)
     - [big picture of linear algebra](https://www.youtube.com/watch?v=ggWYkes-n6E)
     - [change of basis](https://www.youtube.com/watch?v=P2LTAUO1TdA)
-    
-    - [eigenvalues and eigenvectors](https://www.youtube.com/watch?v=PFDu9oVAE-g) (if time permits)
-    - [abstract vector spaces](https://www.youtube.com/watch?v=TgKwz5Ikpc8) (if time permits)
        
 Other resources
 - [MIT online course taught by Prof. Gilbert Strang](https://ocw.mit.edu/courses/mathematics/18-06-linear-algebra-spring-2010/)
 - [BOOK: LINEAR ALGEBRA AND ITS APPLICATIONS by Prof. Gilbert Strang](http://www.math.hcmus.edu.vn/~bxthang/Linear%20algebra%20and%20its%20applications.pdf)
 - [Khan Academy linear algebra online course](https://www.khanacademy.org/math/linear-algebra)
 
-## 3: Principal components analysis
+## 3: Eigenvalues and Principal Components Analysis (Carsen)
 
-**PCA and SVD derivations, low-dimensional representation of data with PCs**
+**Eigenvalues/vectors, linear differential equations, PCA and SVD derivations**
 
-- July 8: lecture
-- July 11: problem set
+- July 8: lecture 
+    - [eigenvalues and eigenvectors](https://www.youtube.com/watch?v=PFDu9oVAE-g)
+    - [matrix diagonalization](https://www.youtube.com/watch?v=U8R54zOTVLw&list=PL9peWTxCcrBJ0ntGY4VMLYnnDJGuXHDAD&index=40)
+    - [linear systems of differential equations](https://www.youtube.com/watch?v=iVlHPDER0FA&list=PL9peWTxCcrBJ0ntGY4VMLYnnDJGuXHDAD&index=42)
+    - [similar matrices](https://www.youtube.com/watch?v=LKMGo8G7-vk&list=PL9peWTxCcrBJ0ntGY4VMLYnnDJGuXHDAD&index=44)
+    
+- July 11: lecture
+    - [abstract vector spaces](https://www.youtube.com/watch?v=TgKwz5Ikpc8)
+    - [positive semi-definite matrices](https://www.youtube.com/watch?v=ojUQk_GNQbQ&list=PL9peWTxCcrBJ0ntGY4VMLYnnDJGuXHDAD&index=47)
+    - [PCA derivation](https://www.youtube.com/watch?v=L-pQtGm3VS8) (first part of video)
+    - [SVD derivation](https://www.youtube.com/watch?v=mBcLRGuAFUk)
 - July 12: programming exercise
 
 Resources
+- [MIT diffeq notes (page 61 has linear ODEs)](https://math.mit.edu/~jorloff/suppnotes/suppnotes03/1803SupplementaryNotes_full.pdf)
+- [first order ODEs](http://www-math.mit.edu/~gs/dela/dela_1-1.pdf)
 - [nice PCA blog post](http://alexhwilliams.info/itsneuronalblog/2016/03/27/pca/)
 - [PCA chapter from PRML by Bishop](week3_pca/bishop_ch12.pdf)
-- [PCA derivation](https://www.youtube.com/watch?v=L-pQtGm3VS8)
-- [SVD derivation](https://www.youtube.com/watch?v=mBcLRGuAFUk)
 
 ## 4: Linear regression
 
