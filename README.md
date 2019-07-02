@@ -75,6 +75,7 @@ Resources
 - [MIT diffeq notes (page 61 has linear ODEs)](https://math.mit.edu/~jorloff/suppnotes/suppnotes03/1803SupplementaryNotes_full.pdf)
 - [first order ODEs](http://www-math.mit.edu/~gs/dela/dela_1-1.pdf)
 - [nice PCA blog post](http://alexhwilliams.info/itsneuronalblog/2016/03/27/pca/)
+- [thorough PCA video](https://www.youtube.com/watch?v=FgakZw6K1QQ)
 - [PCA chapter from PRML by Bishop](week3_pca/bishop_ch12.pdf)
 
 ## 4: Linear regression
