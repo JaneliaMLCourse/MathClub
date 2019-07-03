@@ -68,7 +68,7 @@ Other resources
     - matrix properties: [symmetric matrices](https://www.youtube.com/watch?v=ZTNniGvY5IQ&list=PL9peWTxCcrBJ0ntGY4VMLYnnDJGuXHDAD&index=45), [positive semi-definite matrices](https://www.youtube.com/watch?v=ojUQk_GNQbQ&list=PL9peWTxCcrBJ0ntGY4VMLYnnDJGuXHDAD&index=47)
     - [two-neuron example](week3_pca/PCAEX.png)
     - [PCA derivation](https://www.youtube.com/watch?v=L-pQtGm3VS8) (15:00 - 37:00)
-    - [SVD derivation](https://www.youtube.com/watch?v=mBcLRGuAFUk) (if time)
+    - [SVD derivation](https://www.youtube.com/watch?v=mBcLRGuAFUk)
 - July 12: programming exercise
 
 Resources
