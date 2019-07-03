@@ -56,17 +56,17 @@ Other resources
 
 **Eigenvalues/vectors, linear differential equations, PCA and SVD derivations**
 
-- July 8: lecture [NOTES](week3_pca/eigen_notes.pdf)
+- July 8: lecture **[NOTES](week3_pca/eigen_notes.pdf)**
     - [Euler's method](https://www.youtube.com/watch?v=q87L9R9v274) (watch before class if needed)
     - [complex numbers](https://www.youtube.com/watch?v=ysVcAYo7UPI&list=PLXSlB4yMaoJtM2gG5Mas5mMjwX_B51vsB), [complex roots](https://www.youtube.com/watch?v=N0Y8ia57C24) (watch before class if needed/want to)
     - [eigenvalues and eigenvectors](https://www.youtube.com/watch?v=PFDu9oVAE-g)
     - diff-eq resources: [linear systems of differential equations](https://www.youtube.com/watch?v=iVlHPDER0FA&list=PL9peWTxCcrBJ0ntGY4VMLYnnDJGuXHDAD&index=42), [phase diagrams](https://www.youtube.com/watch?v=e3FfmXtkppM)
     
-- July 11: lecture [NOTES](week3_pca/pca_notes.pdf)
+- July 11: lecture **[NOTES](week3_pca/pca_notes.pdf)**
     - [matrix diagonalization](https://www.youtube.com/watch?v=U8R54zOTVLw&list=PL9peWTxCcrBJ0ntGY4VMLYnnDJGuXHDAD&index=40) (watch before class)
     - [similar matrices](https://www.youtube.com/watch?v=LKMGo8G7-vk&list=PL9peWTxCcrBJ0ntGY4VMLYnnDJGuXHDAD&index=44) (watch first 5 min before class) 
     - matrix properties: [symmetric matrices](https://www.youtube.com/watch?v=ZTNniGvY5IQ&list=PL9peWTxCcrBJ0ntGY4VMLYnnDJGuXHDAD&index=45), [positive semi-definite matrices](https://www.youtube.com/watch?v=ojUQk_GNQbQ&list=PL9peWTxCcrBJ0ntGY4VMLYnnDJGuXHDAD&index=47)
-    - [neuron example](week3_pca/PCAEX.png)
+    - [two-neuron example](week3_pca/PCAEX.png)
     - [PCA derivation](https://www.youtube.com/watch?v=L-pQtGm3VS8) (first part of video)
     - [SVD derivation](https://www.youtube.com/watch?v=mBcLRGuAFUk)
 - July 12: programming exercise
