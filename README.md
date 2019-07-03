@@ -72,6 +72,7 @@ Other resources
 - July 12: programming exercise
 
 Resources
+- [Euler's method](https://www.intmath.com/differential-equations/11-eulers-method-des.php)
 - [MIT diffeq notes (page 61 has linear ODEs)](https://math.mit.edu/~jorloff/suppnotes/suppnotes03/1803SupplementaryNotes_full.pdf)
 - [first order ODEs](http://www-math.mit.edu/~gs/dela/dela_1-1.pdf)
 - [nice PCA blog post](http://alexhwilliams.info/itsneuronalblog/2016/03/27/pca/)
