@@ -83,7 +83,7 @@ Resources
 
 **linear regression - derivation, application and non-linear approaches**
 
-- July 15: lecture
+- July 15: lecture [NOTES](week4_linreg/week4_linreg.pdf)
 - July 18: problem set
 - July 19: programming exercise
 
@@ -92,7 +92,7 @@ Resources
 - [multiple linear regression](https://www.youtube.com/watch?v=5tCSR5L4nWI)
 - [visualizing overdetermined systems of equations](https://www.youtube.com/watch?v=H7DTlXh7z30)
 - [least squares + ridge regression](https://ocw.mit.edu/courses/mathematics/18-086-mathematical-methods-for-engineers-ii-spring-2006/video-lectures/lecture-21-optimization-with-constraints/)
-- [linear regression overview](https://www.youtube.com/watch?v=rVviNyIR-fI)
+- [linear regression with basis functions](https://www.youtube.com/watch?v=rVviNyIR-fI)
 
 ## 5: Probability and random variables
 
