@@ -88,8 +88,11 @@ Resources
 - July 19: programming exercise
 
 Resources
-- [linear regression overview](https://www.youtube.com/watch?v=rVviNyIR-fI)
+- [one variable linear regression](https://youtu.be/wT3Y2K-fxXw)
+- [multiple linear regression](https://www.youtube.com/watch?v=5tCSR5L4nWI)
+- [visualizing overdetermined systems of equations](https://www.youtube.com/watch?v=H7DTlXh7z30)
 - [least squares + ridge regression](https://ocw.mit.edu/courses/mathematics/18-086-mathematical-methods-for-engineers-ii-spring-2006/video-lectures/lecture-21-optimization-with-constraints/)
+- [linear regression overview](https://www.youtube.com/watch?v=rVviNyIR-fI)
 
 ## 5: Probability and random variables
 
