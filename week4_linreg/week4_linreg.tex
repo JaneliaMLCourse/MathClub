@@ -1,17 +1,17 @@
 \documentclass[11pt]{article}
 
 \usepackage{graphicx}
-\usepackage{amsmath}
+\usepackage{amssymb,amsmath}
 
 \newcommand\amtx{\boldsymbol{A}}
 \newcommand\bmtx{\boldsymbol{B}}
 
 \newcommand\xmtx{\boldsymbol{X}}
 \newcommand\betavec{\boldsymbol{\beta}}
-\newcommand\yvec{\boldsymbol{y}}
-\newcommand\yhatvec{\boldsymbol{\hat{y}}}
 
+\newcommand\yvec{\boldsymbol{y}}
 \newcommand\yhat{\hat{y}}
+\newcommand\yhatvec{\boldsymbol{\hat{y}}}
 
 \title{Linear regression notes}
 \author{John Bogovic}
@@ -134,7 +134,23 @@ It might seem strange to do this now, but it will help us find a solution
 to the problem and help us use the technique when we have many input
 and/or output variables.
 
-First, let's stack the $y_i$ in a vector.
+The linear function that does the prediction is:
+\begin{equation}
+    \begin{bmatrix}
+        \yhat
+    \end{bmatrix}
+    = 
+    \begin{bmatrix}
+        1 & x 
+    \end{bmatrix}
+    \begin{bmatrix}
+        b \\ a
+    \end{bmatrix}
+\end{equation}
+
+To determine the parameters $a$ and $b$, we need to consider all the
+pairs of data points at once. We have as many equations as we have data
+point pairs ($N$).  First, let's stack the $y_i$ in a vector.
 \begin{equation}
     \begin{bmatrix}
         y_1  \\
@@ -148,12 +164,19 @@ Next, observe that we can write the vector of function predictions like this:
 
 \begin{equation}
     \begin{bmatrix}
-        \hat{y}_1  \\
-        \hat{y}_2 \\
+        y_1 \\
+        y_2 \\
         \vdots \\
-        \hat{y}_N
+        y_N
     \end{bmatrix}
-    = 
+    \approx 
+    \begin{bmatrix}
+        \yhat_1 \\
+        \yhat_2 \\
+        \vdots \\
+        \yhat_N
+    \end{bmatrix}
+    =
     \begin{bmatrix}
         x_1 & 1 \\
         x_2 & 1 \\
@@ -167,8 +190,12 @@ Next, observe that we can write the vector of function predictions like this:
 
 Let's give names to the vectors and matrices:
 \begin{equation}
-    \yhatvec = \xmtx \betavec
+    \yvec \approx \yhatvec = \xmtx \betavec
 \end{equation}
+
+Remember, at this point we have values for the $x_i$ and $y_i$ (the
+$\xmtx$ matrix and the $\yvec$ vector). We need to find the best values
+for $a$ and $b$ (the $\betavec$ vector).
 
 \subsection{Finding the solution}
 
@@ -176,6 +203,38 @@ We can use our linear algebra to find the solution. One way is using the normal 
 \begin{equation}
     \betavec = (\xmtx^T \xmtx)^{-1} \xmtx^T \yvec
 \end{equation}
+
+where does this come from?
+
+\begin{equation}
+    \begin{aligned}
+        C &= ( \yvec - \yhatvec )^T( \yvec - \yhatvec ) \\
+          &= ( \yvec - \xmtx \betavec )^T( \yvec - \xmtx\betavec ) \\
+          &= \yvec^T \yvec  - \yvec^T \xmtx \betavec - \betavec^T \xmtx^T \yvec + 
+                \betavec^T \xmtx^T \xmtx \betavec \\
+          &= \yvec^T \yvec  - 2 \yvec^T \xmtx \betavec + \betavec^T \xmtx^T \xmtx \betavec 
+    \end{aligned}
+\end{equation}
+
+Now take the derivative:
+\begin{equation}
+    \begin{aligned}
+        \frac{dC}{d\betavec} &= \frac{d}{d\betavec} 
+            (\yvec^T \yvec  - 2 \yvec^T \xmtx \betavec + \betavec^T \xmtx^T \xmtx \betavec )\\
+            &= (- 2 \yvec^T \xmtx + 2 \xmtx^T \xmtx \betavec )\\
+    \end{aligned}
+\end{equation}
+
+Set it equal to zero and solve for $\betavec$:
+\begin{equation}
+    \begin{aligned}
+        0 &= (- 2 \yvec^T \xmtx + 2 \xmtx^T \xmtx \betavec ) \\
+          &= -\yvec^T \xmtx + \xmtx^T \xmtx \betavec \\
+         \yvec^T \xmtx &=  \xmtx^T \xmtx \betavec \\
+    \end{aligned}
+\end{equation}
+
+
 
 \subsection{ Exercise }
 
