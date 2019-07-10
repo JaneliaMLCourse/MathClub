@@ -3,6 +3,16 @@
 \usepackage{graphicx}
 \usepackage{amsmath}
 
+\newcommand\amtx{\boldsymbol{A}}
+\newcommand\bmtx{\boldsymbol{B}}
+
+\newcommand\xmtx{\boldsymbol{X}}
+\newcommand\betavec{\boldsymbol{\beta}}
+\newcommand\yvec{\boldsymbol{y}}
+\newcommand\yhatvec{\boldsymbol{\hat{y}}}
+
+\newcommand\yhat{\hat{y}}
+
 \title{Linear regression notes}
 \author{John Bogovic}
 \date{2019 July}
@@ -11,12 +21,47 @@
 
 \maketitle
 
+\section{ Review }
+
+To be multiplied, matrices need to have the same ``inner'' dimensions:
+the number of columns of the left matrix must equal the number of rows
+of the right matrix.
+\begin{equation}
+    \amtx_{L \times M } \bmtx_{M \times N} = \xmtx_{L \times N }
+\end{equation}
+
+but 
+\begin{equation}
+    \amtx_{L \times M } \bmtx_{N \times M} = \mathrm{ nothing, nonsense }
+\end{equation}
+
+This works:
+\begin{equation}
+    \amtx_{L \times M } \bmtx_{N \times M}^T =  \xmtx_{L \times N }
+\end{equation}
+
+\subsection{ Exercise }
+
+If $\amtx_{M \times N}$, what size is $A^T A$?
+\begin{enumerate}
+    \item $N \times N$
+    \item $M \times N$
+    \item $M \times M$
+    \item Stupid question, because you can't multiply them.
+\end{enumerate}
+
+
+
+
+
 \section{ Simple linear regression (fit a 1d line)}
 
 \subsection{The problem}
 
 We are given the value of a variable, $x$, we would like to predict
-the value of another variable $y$.  We have many pairs of examples:
+the value of another variable $y$.  You will often see $x$ called the
+``independent variable'', and $y$ called the ``dependent variable''.
+We have many pairs of observations:
 \begin{equation}
     \begin{array}{l}
     x_1, y_1 \\
@@ -44,22 +89,44 @@ the predictions are?
 \subsection{``Cost function'' - measuring goodness of the prediction}
 
 The most common way is to use the ``sum of squared differences'' (SSD) also
-called ``residual sum of squares.'' SSD is computed like this:
+called ``sum of squared errors'' (SSE), or``residual sum of squares.''
+It is computed like this:
 
 \begin{equation}
     SSD(a,b) = \sum_i (y_i - (ax_i + b))^2.
 \end{equation}
 
 Notice that $ax_i +b$ is the value of $y$ predicted by our function for the
-input $x_i$.
+input $x_i$.  This is an \emph{``ordinary'' linear least squares} problem.
+Figure \ref{fig:ssd} shows a visualization of SSD. 
 
 \begin{figure}[h]
     \includegraphics[width=0.7\textwidth]{SSD.png}
     \centering
     \caption{Adding the (squared) lengths of the red lines will tell us
-    how good this fit is.}
+    how good this fit is.  Notice that the distances we sum are
+    \emph{not} the shorted lines from the point to the line, but rather
+    the vertical distance to the line. }
     \label{fig:ssd}
 \end{figure}
+
+A related measure, the Root mean squared error (RMSE) is:
+\begin{equation}
+    RMSE = \sqrt{\frac{SSD}{N}}
+\end{equation}
+where $N$ is the number of data points.
+Yet another measure is $R^2$ (``R-squared''), which compares the linear
+model to a ``baseline'' model which always predicts the same value (the
+mean of our observations: $\bar{y}$) for $y$, regardless of what $x$ is.  
+
+\begin{equation}
+    R^2 = 
+        1 - \frac{ \sum_i (y_i - \hat{y}_i)^2 }{ \sum (y_i - \hat{y}_i)^2} = 
+        1 - \frac{ SSD }{ SST }
+\end{equation}
+
+where SST is the ``total sum of squares''
+
 
 \subsection{Rewrite the problem using linear algebra}
 
@@ -77,8 +144,7 @@ First, let's stack the $y_i$ in a vector.
     \end{bmatrix}
 \end{equation}
 
-Next, convince yourself that if we can write a vector of function
-predictions like this:
+Next, observe that we can write the vector of function predictions like this:
 
 \begin{equation}
     \begin{bmatrix}
@@ -99,16 +165,100 @@ predictions like this:
     \end{bmatrix}
 \end{equation}
 
+Let's give names to the vectors and matrices:
+\begin{equation}
+    \yhatvec = \xmtx \betavec
+\end{equation}
+
+\subsection{Finding the solution}
+
+We can use our linear algebra to find the solution. One way is using the normal equations:
+\begin{equation}
+    \betavec = (\xmtx^T \xmtx)^{-1} \xmtx^T \yvec
+\end{equation}
+
+\subsection{ Exercise }
+
+We can't use the inverse of $\xmtx$ to solve for the best parameters.
+Three of the statements below give correct reasons for why, which one is
+wrong?
+
+\begin{enumerate}
+    \item $\xmtx$ is not square.
+    \item There might not exist parameters that solve the equation
+        $\yvec = \xmtx \betavec$
+    \item The task is to find the best approximation, not to find an
+        exact answer.
+    \item THE WRONG ANSWER
+\end{enumerate}
+
+\section{ Multi-variable linear regression }
+
+Now that we know how to write the linear regression problem as a matrix
+equation, it is relatively straightforward to extend it to the
+multi-variable case. In this set-up, we have several dependent variables to
+predict, and also have several independent variables to predict them
+from.
+
+Suppose we want to predict two variables from two other variables.
+Say the two things we want to predict are:
+\begin{enumerate}
+    \item $y_1$: the price of eggs in one months
+    \item $y_2$: the price of eggs in one year
+\end{enumerate}
+and the two variables we can measure are:
+\begin{enumerate}
+    \item $x_1$: the price of eggs today
+    \item $x_2$: the price of milk today
+\end{enumerate}
+
+The equations will then look like:
+\begin{equation}
+    \begin{array}{l}
+    \yhat_1 = \alpha_0 + \alpha_1 x_1  + \alpha_2 x_2 \\
+    \yhat_2 = \beta_0 + \beta_1 x_1  + \beta_2 x_2 \\
+    \end{array}
+\end{equation}
+
+We can write this system of equations with matrices like this:
+\begin{equation}
+    \begin{bmatrix}
+        \yhat_1 & \yhat_2
+    \end{bmatrix} = 
+    \begin{bmatrix}
+        1 & x_1 & x_2 \\
+    \end{bmatrix}
+    \begin{bmatrix}
+        \alpha_0 & \beta_0 \\
+        \alpha_1 & \beta_1 \\
+        \alpha_2 & \beta_2 \\
+    \end{bmatrix}
+\end{equation}
+
+%\begin{equation}
+%    \yhatvect = 
+%    \begin{bmatrix}
+%        y_1 \\ y_2
+%    \end{bmatrix}  
+%\end{equation}
 
 
-%\subsection{Finding the solution}
 
-%\section{ Multi-variable linear regression }
+\subsection{ Exercise }
+
+Suppose we need to predict two output variables from three input
+variables, with an offset.  What size will the matrix $\xmtx$ be?
+\begin{enumerate}
+    \item $3 \times 2$
+    \item $2 \times 3$
+    \item $4 \times 3$
+    \item $3 \times 4$
+\end{enumerate}
+
 
 %\section{ Polynomial regression }
 
 %\section{ General regression }
-
 
 
 \end{document}
