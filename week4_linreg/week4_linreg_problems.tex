@@ -1,0 +1,142 @@
+\documentclass[11pt]{article}
+
+\usepackage{graphicx}
+\usepackage{amsmath}
+
+\newcommand\xmtx{\boldsymbol{X}}
+\newcommand\betavec{\boldsymbol{\beta}}
+\newcommand\yvec{\boldsymbol{y}}
+\newcommand\yhatvec{\boldsymbol{\hat{y}}}
+
+
+\begin{document}
+
+
+\section{Setting up problems}
+
+\subsection{Write linear regression with matrices}
+
+Write down this system of linear equations using matrix-vector
+multiplication.  \emph{ Hint: Remember what size matrices are allowed
+to be left-or-right multiplied with each other}
+
+\begin{equation}
+    \begin{array}{l}
+    y_1 = \alpha_0 + \alpha_1 x_1  + \alpha_2 x_2 + \alpha_3 x_3 \\
+    y_2 = \beta_0 + \beta_1 x_1  + \beta_2 x_2 + \beta_3 x_3 \\
+    \end{array}
+\end{equation}
+
+\begin{equation}
+    \begin{bmatrix}
+        y_1 &  y_2 
+    \end{bmatrix}
+    = 
+    \begin{bmatrix}
+        1 & x_1 & x_2 & x_3
+    \end{bmatrix}
+    \begin{bmatrix}
+        & & & &  \\ 
+        & & ? & & \\
+        & & & &   \\ 
+    \end{bmatrix}
+\end{equation}
+
+%% SOLUTION
+%\begin{equation}
+%    \begin{bmatrix}
+%        y_1 &  y_2 
+%    \end{bmatrix}
+%    = 
+%    \begin{bmatrix}
+%        1 & x_1 & x_2 & x_3
+%    \end{bmatrix}
+%    \begin{bmatrix}
+%         \alpha_0 & \beta_0  \\ 
+%         \alpha_1 & \beta_1  \\ 
+%         \alpha_2 & \beta_2  \\ 
+%         \alpha_3 & \beta_3  \\ 
+%    \end{bmatrix}
+%\end{equation}
+
+\subsection{ Rewrite the same linear system }
+
+Rewrite your answer above so that $y$ is a column vector.
+
+\begin{equation}
+    \begin{bmatrix}
+        y_1 \\  y_2 
+    \end{bmatrix}
+    = 
+    \begin{bmatrix}
+         & &  \\ 
+         & ? & \\
+         & &  \\ 
+    \end{bmatrix}
+    \begin{bmatrix}
+         & &  \\ 
+         & ? & \\
+         & &  \\ 
+    \end{bmatrix}
+\end{equation}
+
+
+
+% SOLUTION
+%\begin{equation}
+%    \begin{bmatrix}
+%        y_1 \\
+%         y_2 
+%    \end{bmatrix}
+%    = 
+%    \begin{bmatrix}
+%         \alpha_0 & \alpha_1 & \alpha_2 & \alpha_3
+%         \beta_0 & \beta_1 & \beta_2 & \beta_3 \\
+%    \end{bmatrix}
+%    \begin{bmatrix}
+%        1   \\ 
+%        x_1 \\
+%        x_2 \\
+%        x_3
+%    \end{bmatrix}
+%\end{equation}
+
+\section{ Derivatives }
+
+\subsection{ Sum of squared differences }
+
+Remember that the $x_i$ and $y_i$ are constant, and we're allowed to
+change the parameters $a$ and $b$. If our cost function $C$ is the SSD,
+then:
+
+\begin{equation}
+    C(a,b) = \sum_i (y_i - (ax_i + b))^2.
+\end{equation}
+
+Compute the derivatives of SSD with respect to $a$ and $b$.
+\emph{ Hint: remember the chain rule if you don't want to multiply out
+the square.}
+
+
+\begin{equation}
+        \frac{ dC }{ da } =  \\
+\end{equation}
+\begin{equation}
+        \frac{ dC }{ db } =  \\
+\end{equation}
+
+%% SOLUTION
+%\begin{equation}
+%        \frac{ dC }{ da } =  \\
+%\end{equation}
+%\begin{equation}
+%        \frac{ dC }{ db } =  \\
+%\end{equation}
+
+
+
+
+
+
+
+\end{document}
