@@ -72,8 +72,8 @@ Other resources
     - [PCA derivation](https://www.youtube.com/watch?v=L-pQtGm3VS8) (15:00 - 37:00)
     - [SVD derivation](https://www.youtube.com/watch?v=mBcLRGuAFUk)
 - July 12: programming
-    - first 30 min - python [notebook](week3_pca/python_tutorial.ipynb)
-    - PCA [notebook](week3_pca/pca_tutorial.ipynb)
+    - first 30 min - python [notebook](https://github.com/JaneliaMLCourse/MathClub/blob/master/week3_pca/python_tutorial.ipynb)
+    - PCA [notebook](https://github.com/JaneliaMLCourse/MathClub/blob/master/week3_pca/pca_tutorial.ipynb)
 
 Resources
 - [Euler's method](https://www.intmath.com/differential-equations/11-eulers-method-des.php)
