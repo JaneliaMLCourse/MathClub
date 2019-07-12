@@ -42,16 +42,14 @@ This works:
 
 \subsection{ Exercise }
 
-If $\amtx_{M \times N}$, what size is $A^T A$?
+If $\amtx_{M \times N}$, what size is $\amtx^T \amtx$?
 \begin{enumerate}
     \item $N \times N$
     \item $M \times N$
     \item $M \times M$
-    \item Stupid question, because you can't multiply them.
+    \item Stupid question, because you can't multiply $\amtx$ and
+        $\amtx^T$.
 \end{enumerate}
-
-
-
 
 
 \section{ Simple linear regression (fit a 1d line)}
@@ -121,7 +119,7 @@ mean of our observations: $\bar{y}$) for $y$, regardless of what $x$ is.
 
 \begin{equation}
     R^2 = 
-        1 - \frac{ \sum_i (y_i - \hat{y}_i)^2 }{ \sum (y_i - \hat{y}_i)^2} = 
+        1 - \frac{ \sum_i (y_i - \hat{y}_i)^2 }{ \sum (y_i - \bar{y}_i)^2} = 
         1 - \frac{ SSD }{ SST }
 \end{equation}
 
@@ -204,38 +202,6 @@ We can use our linear algebra to find the solution. One way is using the normal 
     \betavec = (\xmtx^T \xmtx)^{-1} \xmtx^T \yvec
 \end{equation}
 
-where does this come from?
-
-\begin{equation}
-    \begin{aligned}
-        C &= ( \yvec - \yhatvec )^T( \yvec - \yhatvec ) \\
-          &= ( \yvec - \xmtx \betavec )^T( \yvec - \xmtx\betavec ) \\
-          &= \yvec^T \yvec  - \yvec^T \xmtx \betavec - \betavec^T \xmtx^T \yvec + 
-                \betavec^T \xmtx^T \xmtx \betavec \\
-          &= \yvec^T \yvec  - 2 \yvec^T \xmtx \betavec + \betavec^T \xmtx^T \xmtx \betavec 
-    \end{aligned}
-\end{equation}
-
-Now take the derivative:
-\begin{equation}
-    \begin{aligned}
-        \frac{dC}{d\betavec} &= \frac{d}{d\betavec} 
-            (\yvec^T \yvec  - 2 \yvec^T \xmtx \betavec + \betavec^T \xmtx^T \xmtx \betavec )\\
-            &= (- 2 \yvec^T \xmtx + 2 \xmtx^T \xmtx \betavec )\\
-    \end{aligned}
-\end{equation}
-
-Set it equal to zero and solve for $\betavec$:
-\begin{equation}
-    \begin{aligned}
-        0 &= (- 2 \yvec^T \xmtx + 2 \xmtx^T \xmtx \betavec ) \\
-          &= -\yvec^T \xmtx + \xmtx^T \xmtx \betavec \\
-         \yvec^T \xmtx &=  \xmtx^T \xmtx \betavec \\
-    \end{aligned}
-\end{equation}
-
-
-
 \subsection{ Exercise }
 
 We can't use the inverse of $\xmtx$ to solve for the best parameters.
@@ -243,13 +209,50 @@ Three of the statements below give correct reasons for why, which one is
 wrong?
 
 \begin{enumerate}
-    \item $\xmtx$ is not square.
-    \item There might not exist parameters that solve the equation
+    \item We might not be able to multiply $\xmtx$ and $\yvec$ because their sizes are
+        incompatible.
+    \item $\xmtx$ might not be square, and non-square matrices don't
+        have inverses.
+    \item There might not exist parameters ($\betavec$) that solve the equation
         $\yvec = \xmtx \betavec$
-    \item The task is to find the best approximation, not to find an
-        exact answer.
-    \item THE WRONG ANSWER
+    \item We want to find the best approximation, and it might have non-zero error.
 \end{enumerate}
+
+
+\subsection{ Derive the solution }
+
+where does the equation for the solution come from?
+
+\begin{equation}
+    \begin{aligned}
+        C &= ( \yvec - \yhatvec )^T( \yvec - \yhatvec ) \\
+          &= ( \yvec - \xmtx \betavec )^T( \yvec - \xmtx\betavec ) \\
+          &= \yvec^T \yvec  - \yvec^T \xmtx \betavec - \betavec^T \xmtx^T \yvec + 
+                \betavec^T \xmtx^T \xmtx \betavec \\
+          &= \yvec^T \yvec  - 2 \betavec^T \xmtx^T \yvec + \betavec^T \xmtx^T \xmtx \betavec 
+    \end{aligned}
+\end{equation}
+
+Now take the derivative:
+\begin{equation}
+    \begin{aligned}
+        \frac{dC}{d\betavec} &= \frac{d}{d\betavec} 
+            (\yvec^T \yvec  - 2 \betavec^T \xmtx^T \yvec + \betavec^T \xmtx^T \xmtx \betavec )\\
+            &= (- 2 \xmtx^T \yvec + 2 \xmtx^T \xmtx \betavec )\\
+    \end{aligned}
+\end{equation}
+
+Set it equal to zero and solve for $\betavec$:
+\begin{equation}
+    \begin{aligned}
+        0 &= (2 \xmtx^T \xmtx \betavec - 2 \xmtx^T \yvec  ) \\
+        0 &= 2( \xmtx^T \xmtx \betavec -\xmtx^T \yvec) \\
+        0 &=  \xmtx^T \xmtx \betavec -\xmtx^T \yvec \\
+        \xmtx^T \xmtx \betavec & = \xmtx^T \yvec \\
+        \betavec &= (\xmtx^T \xmtx )^{-1} \xmtx^T \yvec 
+    \end{aligned}
+\end{equation}
+
 
 \section{ Multi-variable linear regression }
 
