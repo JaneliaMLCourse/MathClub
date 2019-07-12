@@ -1,5 +1,13 @@
 tmp*
+*swp
 
 # Latex stuff
 *aux
 *log
+
+
+# Data folders
+*/data/*
+
+# Notebook checkpoints
+.ipynb_check*
