@@ -125,6 +125,60 @@ mean of our observations: $\bar{y}$) for $y$, regardless of what $x$ is.
 
 where SST is the ``total sum of squares''
 
+\subsection{Exercise}
+
+Which of the equations below equals $y = ax + b$?
+\begin{enumerate}
+    \item{ \begin{equation*}
+            \begin{bmatrix}
+                y  
+            \end{bmatrix}
+            = 
+            \begin{bmatrix}
+                x \\ 1 
+            \end{bmatrix}
+            \begin{bmatrix}
+                b \\ a
+            \end{bmatrix}
+    \end{equation*} }
+    \item{ \begin{equation*}
+            \begin{bmatrix}
+                y
+            \end{bmatrix}
+            = 
+            \begin{bmatrix}
+                x & 1 
+            \end{bmatrix}
+            \begin{bmatrix}
+                a \\ b
+            \end{bmatrix}
+    \end{equation*} }
+    \item{ \begin{equation*}
+            \begin{bmatrix}
+                y  
+            \end{bmatrix}
+            = 
+            \begin{bmatrix}
+                x & 1 
+            \end{bmatrix}
+            \begin{bmatrix}
+                b \\ a
+            \end{bmatrix}
+    \end{equation*} }
+    \item{ \begin{equation*}
+            \begin{bmatrix}
+                y  
+            \end{bmatrix}
+            = 
+            \begin{bmatrix}
+                x \\ 1 
+            \end{bmatrix}
+            \begin{bmatrix}
+                b & a
+            \end{bmatrix}
+    \end{equation*} }
+\end{enumerate}
+
 
 \subsection{Rewrite the problem using linear algebra}
 
@@ -139,10 +193,10 @@ The linear function that does the prediction is:
     \end{bmatrix}
     = 
     \begin{bmatrix}
-        1 & x 
+        x & 1 
     \end{bmatrix}
     \begin{bmatrix}
-        b \\ a
+        a \\ b
     \end{bmatrix}
 \end{equation}
 
