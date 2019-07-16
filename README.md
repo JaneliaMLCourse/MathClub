@@ -99,6 +99,7 @@ Resources
 - [least squares + ridge regression](https://ocw.mit.edu/courses/mathematics/18-086-mathematical-methods-for-engineers-ii-spring-2006/video-lectures/lecture-21-optimization-with-constraints/)
 - [linear regression with basis functions (video)](https://www.youtube.com/watch?v=rVviNyIR-fI)
 - [linear regression with basis function (notes)](http://www.cs.columbia.edu/~jebara/4771/tutorials/regression.pdf)
+- [Abstract vector spaces (video)](https://www.youtube.com/watch?v=TgKwz5Ikpc8)
 - [Difference between linear regression and PCA](https://shankarmsy.github.io/posts/pca-vs-lr.html)
 
 ## 5: Probability and random variables
