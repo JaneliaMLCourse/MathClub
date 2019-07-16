@@ -97,7 +97,8 @@ Resources
 - [multiple linear regression](https://www.youtube.com/watch?v=5tCSR5L4nWI)
 - [visualizing overdetermined systems of equations](https://www.youtube.com/watch?v=H7DTlXh7z30)
 - [least squares + ridge regression](https://ocw.mit.edu/courses/mathematics/18-086-mathematical-methods-for-engineers-ii-spring-2006/video-lectures/lecture-21-optimization-with-constraints/)
-- [linear regression with basis functions](https://www.youtube.com/watch?v=rVviNyIR-fI)
+- [linear regression with basis functions (video)](https://www.youtube.com/watch?v=rVviNyIR-fI)
+- [linear regression with basis function (notes)](http://www.cs.columbia.edu/~jebara/4771/tutorials/regression.pdf)
 - [Difference between linear regression and PCA](https://shankarmsy.github.io/posts/pca-vs-lr.html)
 
 ## 5: Probability and random variables
