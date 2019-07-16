@@ -83,11 +83,12 @@ Resources
 - [thorough PCA video](https://www.youtube.com/watch?v=FgakZw6K1QQ)
 - [PCA chapter from PRML by Bishop](week3_pca/bishop_ch12.pdf)
 
-## 4: Linear regression
+## 4: Linear regression (John)
 
 **linear regression - derivation, application and non-linear approaches**
 
 - July 15: lecture [NOTES](week4_linreg/week4_linreg.pdf)
+  - [PopIn questions](http://popin.it/2pw1yq)
 - July 18: problem set
 - July 19: programming exercise
 
