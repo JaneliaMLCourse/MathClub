@@ -372,9 +372,43 @@ variables, with an offset.  What size will the matrix $\xmtx$ be?
 \end{enumerate}
 
 
-%\section{ Polynomial regression }
+\section{ Polynomial regression }
 
-%\section{ General regression }
+What equation does this correspond to?
 
+\begin{equation}
+    \begin{bmatrix}
+        \yhat 
+    \end{bmatrix} = 
+    \begin{bmatrix}
+        1 & x & x^2 \\
+    \end{bmatrix}
+    \begin{bmatrix}
+        \beta_0 \\
+        \beta_1 \\
+        \beta_2 \\
+    \end{bmatrix}
+\end{equation}
+
+Is this still linear regression? - yes!
+Notice that the function is non-linear in $x$, but it \emph{is} linear
+in $\beta_i$!
+
+Conclusion - we can fit polynomials with linear regression!
+
+\subsection{ Exercise }
+
+Generalize this - write down matrix equation to fit a third-degree
+polynomial to two dependent variables from three independent variables
+with $N$ datapoints.
+
+
+%\section{ Regress with basis functions }
+
+
+%\section{ Two kinds of ``fancy'' regression }
+% \subsection{ Weighted regularization }
+% \subsection{ Tikhonov regularization}
+% Introduces ``bias'' - but can be worth it (to reduce ``variance'').
 
 \end{document}

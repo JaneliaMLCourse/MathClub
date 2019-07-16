@@ -2,8 +2,11 @@
 
 \usepackage{graphicx}
 \usepackage{amsmath}
+\usepackage{amssymb}
 
 \newcommand\xmtx{\boldsymbol{X}}
+\newcommand\amtx{\boldsymbol{A}}
+
 \newcommand\betavec{\boldsymbol{\beta}}
 \newcommand\yvec{\boldsymbol{y}}
 \newcommand\yhatvec{\boldsymbol{\hat{y}}}
@@ -42,6 +45,7 @@ the square.}
 %\begin{equation}
 %        \frac{ dC }{ db } =  \\
 %\end{equation}
+
 
 \section{Setting up problems}
 
@@ -131,5 +135,38 @@ Rewrite your answer above so that $y$ is a column vector.
 %        x_3
 %    \end{bmatrix}
 %\end{equation}
+
+\section { Normal Equations }
+
+\subsection{ When do the Normal Equations not work ? }
+
+\begin{enumerate}
+    \item Write down a set of points $x_i, y_i$ such that we can't use
+        the normal equations to solve for the best-fit line. \emph{ Hint: When
+        will $X^TX$ not be invertible?} 
+    \item What results would PCA give for the points you gave above?
+\end{enumerate}
+\section {Challenges}
+
+\subsection{ Matrix "beta-squared" derivatives }
+
+Here we'll confirm that $\frac{ \delta }{ \delta \betavec } ( \betavec^T \xmtx^T \xmtx \betavec )
+    = 2 \xmtx^T \xmtx \betavec $
+
+\begin{enumerate}
+    \item Show that $\xmtx^T \xmtx$ is a symmetric matrix.  This means that if
+        we rename it like this: $\amtx = \xmtx^T \xmtx$, then $a_{i,j} = a_{j,i}$
+    \item Write $\betavec^T \amtx$ as a linear combination of the rows
+        of $\amtx$.
+    \item Write $\betavec^T \amtx \betavec$ as a linear combinations of
+        dot products of rows of $\amtx$ and $\betavec$
+    \item Expand out the dot products as sums
+    \item Take the derivative with respect to one component of beta:
+        $\beta_i$
+    \item Use the propery that $\amtx$ is symmetric
+    \item Concatenate into a vector, rearrange and QED! $\square$
+\end{enumerate}
+
+
 
 \end{document}
