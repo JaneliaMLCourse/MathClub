@@ -6,12 +6,20 @@
 \newcommand\amtx{\boldsymbol{A}}
 \newcommand\bmtx{\boldsymbol{B}}
 
+\newcommand\xvec{\boldsymbol{x}}
 \newcommand\xmtx{\boldsymbol{X}}
 \newcommand\betavec{\boldsymbol{\beta}}
+
+\newcommand\wmtx{\boldsymbol{W}}
+\newcommand\wmtxsqrt{\wmtx^{1/2}}
 
 \newcommand\yvec{\boldsymbol{y}}
 \newcommand\yhat{\hat{y}}
 \newcommand\yhatvec{\boldsymbol{\hat{y}}}
+
+\newcommand\gammtx{\boldsymbol{\Gamma}}
+
+\newcommand{\norm}[1]{\left\lVert#1\right\rVert}
 
 \title{Linear regression notes}
 \author{John Bogovic}
@@ -402,13 +410,135 @@ Generalize this - write down matrix equation to fit a third-degree
 polynomial to two dependent variables from three independent variables
 with $N$ datapoints.
 
+\section{ Regress with basis functions }
 
-%\section{ Regress with basis functions }
+We can go even further than polynomials and use arbitrary functions of
+our independent variable(s), as long as the functions form a
+\emph{basis}.
+
+\begin{equation}
+    \begin{bmatrix}
+        \yhat 
+    \end{bmatrix} = 
+    \begin{bmatrix}
+        \phi_1(x) & \phi_2(x) 
+    \end{bmatrix}
+    \begin{bmatrix}
+        \beta_1 \\
+        \beta_2 \\
+    \end{bmatrix}
+\end{equation}
+
+Below are some example of commonly chosen basis funcions.
+
+\subsection{ Polynomial basis }
+
+\begin{equation}
+    f(x) = \sum_{i=0}^{\infty} \beta_i x^i
+\end{equation}
+
+\subsection{ Fourier basis }
+
+\begin{equation}
+    f(x) = a_0 + \sum_{i=1}^{\infty} \alpha_i \cos( ix ) + \beta_i \sin( ix)
+\end{equation}
+
+\subsection{ Radial basis functions }
 
 
-%\section{ Two kinds of ``fancy'' regression }
-% \subsection{ Weighted regularization }
-% \subsection{ Tikhonov regularization}
-% Introduces ``bias'' - but can be worth it (to reduce ``variance'').
+The Gaussian ``RBF'', is a common choice:
+\begin{equation}
+  f(x) = \sum_{i=1}^{N} e^{(x - x_i)^2}
+\end{equation}
+
+but in general:
+\begin{equation}
+  f(x) = \sum_{i=1}^{N} \phi( || \xvec - \xvec_i || )
+\end{equation}
+
+These are ``radial'', because in multiple dimensions, the function
+$\phi$ acts only on the scalar radius, or distance to data points $x_i$.
+
+\section{ Two ``fancy'' optimization }
+
+\subsection{ Weighted least squares }
+
+In weighted least squares, we don't sum errors across all data points
+equally.  Rather, we weight errors for some differently than others.
+This can be a good idea if your measurements have different levels of
+uncertainty, for example.  These weights are fixed during optimization,
+and therefore have to be chosen ahead of time.
+
+There is a good theoretical reason to choose your weights to be the
+inverse standard deviation of your measurements. 
+So if we weight our errors like this:
+\begin{equation}
+    \wmtx^{1/2} =
+    \begin{bmatrix}
+        \sigma_1^{-\frac{1}{2}} & 0 & \ldots & 0 \\
+        0 & \sigma_2^{-\frac{1}{2}} & \ldots & 0  \\
+        \vdots & & \ddots & & \\
+        0 & \ldots & 0 & \sigma_N^{-\frac{1}{2}} \\
+    \end{bmatrix}
+\end{equation}
+
+with my sincerest apologies for the nasty notation.
+Notice that $\wmtxsqrt$ is a diagonal matrix. If we weight our errors
+like this:
+
+\begin{equation}
+        E = \wmtxsqrt( \yvec -  \yhatvec )
+\end{equation}
+
+then our cost becomes:
+\begin{equation}
+    \begin{aligned}
+        C_W &= (\wmtxsqrt( \yvec -  \yhatvec ))^T \wmtxsqrt( \yvec - \yhatvec ) \\
+          &= ( \yvec - \xmtx \betavec )^T \wmtx ( \yvec - \xmtx\betavec ) \\
+    \end{aligned}
+\end{equation}
+
+and the normal equations are:
+
+\begin{equation}
+    \betavec = (\xmtx^T \wmtx \xmtx)^{-1} \xmtx^T \wmtx \yvec
+\end{equation}
+
+where I wrote $\wmtx = (\wmtxsqrt)^T(\wmtxsqrt)$, and the notational
+pain we suffered pays off, maybe.
+
+\subsection{ Ridge regression / Tikhonov regularization }
+
+Sometimes, the parameters we estimate are very sensitive to small 
+changes in the data we collect. We might be willing to make a tradeoff
+that gives us a lower ``variance'' (more stable/consistent) estimate at the
+cost of ``bias''. This could involve introducing some prior belief / preference
+on what we think the parameters should be. Maybe the most common is
+called ridge regression (in statistics) or Tikhonov regularization
+elsewhere.
+
+All we do is modify the cost function from before like this:
+
+\begin{equation}
+  C_{R}(\betavec) =  \norm{ \yvec - \xmtx \betavec }^2 + \lambda\norm{\betavec}^2
+\end{equation}
+
+where $\norm{\yvec}^2 = \yvec^T \yvec$ is the ``norm'' of a vector. The
+``hyperparameter'' $\lambda$ describes how ``strong'' the regularization
+is.
+
+Let's get even fancier, Tikhonov regularization is written like this: 
+
+\begin{equation}
+  C_{T}(\betavec) =  \norm{ \yvec - \xmtx \betavec }^2 + \norm{\gammtx\betavec}^2
+\end{equation}
+
+We can still solve this closed form, with modified normal equations:
+
+\begin{equation}
+    \betavec = (\xmtx^T \xmtx + \gammtx^T \gammtx)^{-1} \xmtx^T \yvec
+\end{equation}
+
+
 
 \end{document}
