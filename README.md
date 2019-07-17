@@ -82,6 +82,7 @@ Resources
 - [nice PCA blog post](http://alexhwilliams.info/itsneuronalblog/2016/03/27/pca/)
 - [thorough PCA video](https://www.youtube.com/watch?v=FgakZw6K1QQ)
 - [PCA chapter from PRML by Bishop](week3_pca/bishop_ch12.pdf)
+- [Another PCA tutorial](https://www.cs.cmu.edu/~elaw/papers/pca.pdf) - with a nice explanation of how PCA and the SVD related
 
 ## 4: Linear regression (John)
 
