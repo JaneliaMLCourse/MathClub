@@ -13,13 +13,18 @@
 \newcommand\wmtx{\boldsymbol{W}}
 \newcommand\wmtxsqrt{\wmtx^{1/2}}
 
+\newcommand\umtx{\boldsymbol{U}}
+\newcommand\vmtx{\boldsymbol{V}}
+
 \newcommand\yvec{\boldsymbol{y}}
 \newcommand\yhat{\hat{y}}
 \newcommand\yhatvec{\boldsymbol{\hat{y}}}
 
 \newcommand\gammtx{\boldsymbol{\Gamma}}
+\newcommand\sigmtx{\boldsymbol{\Sigma}}
 
 \newcommand{\norm}[1]{\left\lVert#1\right\rVert}
+\newcommand{\mtx}[1]{\boldsymbol{#1}}
 
 \title{Linear regression notes}
 \author{John Bogovic}
@@ -315,6 +320,74 @@ Set it equal to zero and solve for $\betavec$:
     \end{aligned}
 \end{equation}
 
+\subsection{ SVD exercise }
+
+\begin{equation}
+    \sigmtx =  
+    \begin{bmatrix}
+        4 & 0   & 0 & 0 \\
+        0 & 0.1 & 0 & 0 \\
+    \end{bmatrix}
+\end{equation}
+
+Which of the matrices below makes this true $\sigmtx \xmtx = \mtx{I}_{2 \times 2}$
+
+\begin{equation}
+    \mtx{A} = \xmtx = 
+    \begin{bmatrix}
+        0.25 & 0   & 0 & 0 \\
+        0 & 10 & 0 & 0 \\
+    \end{bmatrix}
+\end{equation}
+
+\begin{equation}
+    \mtx{B} = \xmtx = 
+    \begin{bmatrix}
+        0.25 & 0 \\
+        0 & 10  \\
+        0 & 0 \\
+        0 & 0 \\
+    \end{bmatrix}
+\end{equation}
+
+\begin{equation}
+    \mtx{C} = \xmtx = 
+    \begin{bmatrix}
+        0.25 & 0 \\
+        0 & 10  \\
+    \end{bmatrix}
+\end{equation}
+
+\subsection{ Normal equations and the SVD }
+
+The matrix we get by solving the normal equations is called the
+pseudo-inverse:
+
+\begin{equation}
+    \xmtx^{\dagger} = (\xmtx^T \xmtx)^{-1} \xmtx^T
+\end{equation}
+
+The singular value decomposition (SVD) of the matrix makes
+the pseudo-inverse \emph{very} easy to compute.
+Remember the SVD is:
+
+\begin{equation}
+    \xmtx = \umtx \sigmtx \vmtx^T
+\end{equation}
+
+where $\umtx$ and $\vmtx$ are orthonormal matrices, and $\sigmtx$
+is a non-square ``diagonal'' matrix.
+
+\begin{equation}
+    \xmtx^{\dagger} = \vmtx \sigmtx^{\dagger} \umtx^T
+\end{equation}
+
+where $\sigmtx^{\dagger}$ takes the reciprocal of the non-zero
+diagonal elements of $\sigmtx$, and transposes.
+
+(Caveat: to be correct in general, all the transpose operations I wrote in this section should
+really be conjugate transpose operations).
+
 
 \section{ Multi-variable linear regression }
 
@@ -327,7 +400,7 @@ from.
 Suppose we want to predict two variables from two other variables.
 Say the two things we want to predict are:
 \begin{enumerate}
-    \item $y_1$: the price of eggs in one months
+    \item $y_1$: the price of eggs in one month
     \item $y_2$: the price of eggs in one year
 \end{enumerate}
 and the two variables we can measure are:
@@ -406,9 +479,22 @@ Conclusion - we can fit polynomials with linear regression!
 
 \subsection{ Exercise }
 
-Generalize this - write down matrix equation to fit a third-degree
-polynomial to two dependent variables from three independent variables
-with $N$ datapoints.
+Generalize this - write down matrix equation to fit a second-degree
+polynomial to two dependent variables ($y_i$) from three independent
+variables ($x_i$) with $N$ datapoints. 
+
+There will be some second order terms (don't forget
+the ``cross-terms'' like $x_1 x_2$, which show up in multivariable
+polynomials), some first order terms, and the column of ``ones.''
+
+The $\xmtx$ matrix will have $N$ rows, and how many columns?
+
+\begin{itemize}
+    \item  3
+    \item  5
+    \item 10 
+    \item 13 
+\end{itemize}
 
 \section{ Regress with basis functions }
 
@@ -458,6 +544,30 @@ but in general:
 
 These are ``radial'', because in multiple dimensions, the function
 $\phi$ acts only on the scalar radius, or distance to data points $x_i$.
+
+\subsection{ Exercise - Linear combinations }
+
+Lets say we have two ``basis'' functions: 
+\begin{equation}
+    \begin{aligned}
+        f_1(x) &= x^2 \\
+        f_2(x) &= \sin(x)
+    \end{aligned}
+\end{equation}
+
+These span some subset of the space of all possible functions.
+Which of these expressions is \emph{not} a linear combination of $f_1$ and
+$f_2$?
+
+\begin{equation}
+    \begin{aligned}
+        a(x) &= 5x^2 \\
+        b(x) &= x^2 \sin(x) \\
+        c(x) &= 0 \\
+        d(x) &= 2 \sin(x) + 0.1 x^2
+    \end{aligned}
+\end{equation}
+
 
 \section{ Two ``fancy'' optimization }
 
