@@ -91,6 +91,7 @@ Resources
 - July 15: lecture [NOTES](week4_linreg/week4_linreg.pdf)
   - [PopIn questions](http://popin.it/2pw1yq)
 - July 18: problem set
+  - [PopIn questions 2](http://popin.it/wnfqzz)
 - July 19: programming exercise
 
 Resources
