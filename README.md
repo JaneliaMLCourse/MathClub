@@ -88,9 +88,9 @@ Resources
 
 **linear regression - derivation, application and non-linear approaches**
 
-- July 15: lecture [NOTES](week4_linreg/week4_linreg.pdf)
+- July 15: lecture **[notes](week4_linreg/week4_linreg.pdf)**
   - [PopIn questions](http://popin.it/2pw1yq)
-- July 18: [PROBLEM SET](https://github.com/JaneliaMLCourse/MathClub/raw/master/week4_linreg/week4_linreg_problems.pdf)
+- July 18: **[problem set](https://github.com/JaneliaMLCourse/MathClub/raw/master/week4_linreg/week4_linreg_problems.pdf)**
   - [PopIn questions 2](http://popin.it/wnfqzz)
 - July 19: programming exercise
 
