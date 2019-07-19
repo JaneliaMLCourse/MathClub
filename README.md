@@ -67,8 +67,8 @@ Other resources
 - July 11:  [pre-class problems](week3_pca/math_probs_0711.pdf), **[notes](week3_pca/pca_notes.pdf)**
     - [matrix diagonalization](https://www.youtube.com/watch?v=U8R54zOTVLw&list=PL9peWTxCcrBJ0ntGY4VMLYnnDJGuXHDAD&index=40) (watch before class)
     - [similar matrices](https://www.youtube.com/watch?v=LKMGo8G7-vk&list=PL9peWTxCcrBJ0ntGY4VMLYnnDJGuXHDAD&index=44) (watch first 5 min before class) 
+    - **[two-neuron example](week3_pca/detailedPCAEX.pdf)**
     - matrix properties: [symmetric matrices](https://www.youtube.com/watch?v=ZTNniGvY5IQ&list=PL9peWTxCcrBJ0ntGY4VMLYnnDJGuXHDAD&index=45), [positive semi-definite matrices](https://www.youtube.com/watch?v=ojUQk_GNQbQ&list=PL9peWTxCcrBJ0ntGY4VMLYnnDJGuXHDAD&index=47)
-    - [two-neuron example](week3_pca/PCAEX.png)
     - [PCA derivation](https://www.youtube.com/watch?v=L-pQtGm3VS8) (15:00 - 37:00)
     - [SVD derivation](https://www.youtube.com/watch?v=mBcLRGuAFUk)
 - July 12: programming
@@ -88,9 +88,10 @@ Resources
 
 **linear regression - derivation, application and non-linear approaches**
 
-- July 15: lecture [NOTES](week4_linreg/week4_linreg.pdf)
+- July 15: lecture **[notes](week4_linreg/week4_linreg.pdf)**
   - [PopIn questions](http://popin.it/2pw1yq)
-- July 18: problem set
+- July 18: **[problem set](https://github.com/JaneliaMLCourse/MathClub/raw/master/week4_linreg/week4_linreg_problems.pdf)**
+  - [PopIn questions 2](http://popin.it/wnfqzz)
 - July 19: programming exercise
 
 Resources
