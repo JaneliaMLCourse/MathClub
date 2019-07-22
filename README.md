@@ -109,7 +109,8 @@ Resources
 **random variables, gaussian/poisson distributions, moments, central limit theorem**
 
 - July 22: lecture [notes](week5_prob/lecture_1_probability.pdf)
-- July 25: problem set
+  - [PopIn questions](http://popin.it/mywtng)
+- July 25: lecture and problem set
 
 Resources
 - [khan academy stats](https://www.youtube.com/playlist?list=PLC58778F28211FA19)
