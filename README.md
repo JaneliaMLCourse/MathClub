@@ -108,7 +108,7 @@ Resources
 
 **random variables, gaussian/poisson distributions, moments, central limit theorem**
 
-- July 22: lecture
+- July 22: lecture [notes](week5_prob/lecture_1_probability.pdf)
 - July 25: problem set
 
 Resources
