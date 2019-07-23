@@ -110,6 +110,8 @@ Resources
 
 - July 22: lecture [notes](week5_prob/lecture_1_probability.pdf)
   - [PopIn questions](http://popin.it/mywtng)
+  - [Combinatorics notes](week5_prob/combinatorics.pdf)
+  - [Reference sheets for set theory](week5_prob/venn_diags_v2.pdf)
 - July 25: lecture and problem set
 
 Resources
