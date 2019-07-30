@@ -124,7 +124,7 @@ Resources
 
 **log likelihood, analytical derivation of spike rate for a poisson model**
 
-- July 29: lecture
-- Aug 1: problem set
+- July 29: lecture [notes](week6_maxlik/Notes.pdf)
+- Aug 1: [problem set](week6_maxlik/MLMAP_PS.pdf)
 
 Resources
